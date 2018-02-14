@@ -9,7 +9,7 @@
                 <button class="right-side-toggle waves-effect waves-light btn-info btn-circle pull-right m-l-20"><i class="ti-settings text-white"></i></button>
                 <a href="#" target="_blank" class="btn btn-danger pull-right m-l-20 hidden-xs hidden-sm waves-effect waves-light">Buy Admin Now</a>
                 <ol class="breadcrumb">
-                    <li><a href="{{ url('Dashboard/index3') }}">Dashboard</a></li>
+                    <li><a href="#">Dashboard</a></li>
                     <li class="active">Starter Page</li>
                 </ol>
             </div>

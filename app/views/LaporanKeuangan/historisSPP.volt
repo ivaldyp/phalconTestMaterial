@@ -17,7 +17,8 @@
         </div>
         <!-- /row -->
         <div class="row">
-            <div class="col-sm-12">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8">
                 <div class="white-box">
                     <h3 class="box-title m-b-0">MAHASISWA : IVALDY - 5114100105</h3>
                     <!-- <p class="text-muted m-b-30">Simple table example</p> -->
@@ -76,6 +77,7 @@
                     </table>
                 </div>
             </div>
+            <div class="col-sm-2"></div>
         </div>
         <!-- /.row -->
     </div>

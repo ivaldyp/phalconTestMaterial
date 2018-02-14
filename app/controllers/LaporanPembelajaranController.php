@@ -8,9 +8,9 @@ class LaporanPembelajaranController extends \Phalcon\Mvc\Controller
 
     }
 
-    public function homeAction()
+    public function buatBeritaAcaraAction()
     {
-    	$this->view->pick("LaporanPembelajaran/home");
+    	$this->view->pick("LaporanPembelajaran/buatBeritaAcara");
     }
 
 }

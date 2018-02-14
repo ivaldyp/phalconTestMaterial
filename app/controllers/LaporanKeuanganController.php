@@ -8,9 +8,9 @@ class LaporanKeuanganController extends \Phalcon\Mvc\Controller
 
     }
 
-    public function homeAction()
+    public function historisSPPAction()
     {
-    	$this->view->pick("LaporanKeuangan/home");
+    	$this->view->pick("LaporanKeuangan/historisSPP");
     }
 
 }

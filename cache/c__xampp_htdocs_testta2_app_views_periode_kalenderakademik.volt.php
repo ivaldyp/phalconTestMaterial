@@ -10,25 +10,25 @@
     <link rel="icon" type="image/png" sizes="16x16" href="../plugins/images/favicon.png">
     <title>Ample Admin Template - The Ultimate Multipurpose admin template</title>
     <!-- Bootstrap Core CSS -->
-    {{stylesheet_link('bootstrap/dist/css/bootstrap.min.css')}}
-    {{stylesheet_link('plugins/bower_components/bootstrap-table/dist/bootstrap-table.min.css')}}
+    <?= $this->tag->stylesheetLink('bootstrap/dist/css/bootstrap.min.css') ?>
+    <?= $this->tag->stylesheetLink('plugins/bower_components/bootstrap-table/dist/bootstrap-table.min.css') ?>
     <!-- Menu CSS -->
-    {{stylesheet_link('plugins/bower_components/sidebar-nav/dist/sidebar-nav.min.css')}}
+    <?= $this->tag->stylesheetLink('plugins/bower_components/sidebar-nav/dist/sidebar-nav.min.css') ?>
     <!-- Page plugins css -->
-    {{stylesheet_link('plugins/bower_components/clockpicker/dist/jquery-clockpicker.min.css')}}
+    <?= $this->tag->stylesheetLink('plugins/bower_components/clockpicker/dist/jquery-clockpicker.min.css') ?>
     <!-- Color picker plugins css -->
-    {{stylesheet_link('plugins/bower_components/jquery-asColorPicker-master/css/asColorPicker.css')}}
+    <?= $this->tag->stylesheetLink('plugins/bower_components/jquery-asColorPicker-master/css/asColorPicker.css') ?>
     <!-- Date picker plugins css -->
-    {{stylesheet_link('plugins/bower_components/bootstrap-datepicker/bootstrap-datepicker.min.css')}}
+    <?= $this->tag->stylesheetLink('plugins/bower_components/bootstrap-datepicker/bootstrap-datepicker.min.css') ?>
     <!-- Daterange picker plugins css -->
-    {{stylesheet_link('plugins/bower_components/timepicker/bootstrap-timepicker.min.css')}}
-    {{stylesheet_link('plugins/bower_components/bootstrap-daterangepicker/daterangepicker.css')}}
+    <?= $this->tag->stylesheetLink('plugins/bower_components/timepicker/bootstrap-timepicker.min.css') ?>
+    <?= $this->tag->stylesheetLink('plugins/bower_components/bootstrap-daterangepicker/daterangepicker.css') ?>
     <!-- animation CSS -->
-    {{stylesheet_link('css/animate.css')}}
+    <?= $this->tag->stylesheetLink('css/animate.css') ?>
     <!-- custom CSS -->
-    {{stylesheet_link('css/style.css')}}
+    <?= $this->tag->stylesheetLink('css/style.css') ?>
     <!-- color CSS -->
-    {{stylesheet_link('css/colors/default.css')}}
+    <?= $this->tag->stylesheetLink('css/colors/default.css') ?>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -142,45 +142,155 @@
         <!-- ============================================================== -->
         <!-- Page Content -->
         <!-- ============================================================== -->
-        {% block content %}
-        {% endblock %}
+        
+
+<div id="page-wrapper">
+    <div class="container-fluid">
+        <div class="row bg-title">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <h4 class="page-title">Historis Pembayaran Mahasiswa</h4> </div>
+            <div class="col-lg-8 col-sm-8 col-md-8 col-xs-12"> 
+                <ol class="breadcrumb">
+                    <li><a href="#">Dashboard</a></li>
+                    <li><a href="LaporanKeuangan/index2">Table</a></li>
+                    <li class="active">Bootstrap Table</li>
+                </ol>
+            </div>
+            <!-- /.col-lg-12 -->
+        </div>
+        <!-- /row -->
+        <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-10">
+                <div class="white-box">
+                    <!-- <h3 class="box-title m-b-0">MAHASISWA : IVALDY - 5114100105</h3> -->
+                    <!-- <p class="text-muted m-b-30">Simple table example</p> -->
+                    <!-- <table data-toggle="table" data-mobile-responsive="true" class="table">
+                        <tr>
+                            <td>Periode</td>
+                            <td>Pengisian</td>
+                            <td>Pengubahan</td>
+                            <td>Pembatalan</td>
+                            <td>Ubah</td>
+                        </tr>
+                    </table> -->
+                    <table class="table table-bordered table-hover table-striped" style="text-align: center;">
+                        <thead>
+                            <tr>
+                                <th class="col-sm-2" colspan="2" style="text-align: center;">Periode</th>
+                                <!-- <th>Progress</th> -->
+                                <th class="col-sm-2" colspan="2" style="text-align: center;">Pengisian</th>
+                                <th class="col-sm-2" colspan="2" style="text-align: center;">Perubahan</th>
+                                <th class="col-sm-2" colspan="2" style="text-align: center;">Pembatalan</th>
+                            </tr>
+                            <tr>
+                                <th class="col-sm-1" style="text-align: center;">Tahun</th>
+                                <th class="col-sm-1" style="text-align: center;">Semester</th>
+                                <th class="col-sm-1" style="text-align: center;">Mulai</th>
+                                <th class="col-sm-1" style="text-align: center;">Selesai</th>
+                                <th class="col-sm-1" style="text-align: center;">Mulai</th>
+                                <th class="col-sm-1" style="text-align: center;">Selesai</th>
+                                <th class="col-sm-1" style="text-align: center;">Mulai</th>
+                                <th class="col-sm-1" style="text-align: center;">Selesai</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>2017</td>
+                                <td>Gasal</td>
+                                <td>21 <br> Agustus <br> 2017</td>
+                                <td>25 <br> Agustus <br> 2017</td>
+                                <td>26 <br> Agustus <br> 2017</td>
+                                <td>15 <br> September <br> 2017</td>
+                                <td>16 <br> September <br> 2017</td>
+                                <td>10 <br> November <br> 2017</td>
+                            </tr>
+                            <tr>
+                                <td class="col-sm-1">
+                                    <select class="form-control">
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                    </select>
+                                </td>
+                                <td class="col-sm-1">
+                                    <select class="form-control">
+                                        <option>Gasal</option>
+                                        <option>Genap</option>
+                                    </select>
+                                </td>
+                                <td class="col-sm-1">
+                                    <input type="text" class="form-control date" value="isiMulai">
+                                </td>
+                                <td class="col-sm-1">
+                                    <input type="text" class="form-control" value="isiSelesai">
+                                </td>
+                                <td class="col-sm-1">
+                                    <input type="text" class="form-control" value="isiSelesai">
+                                </td>
+                                <td class="col-sm-1">
+                                    <input type="text" class="form-control" value="isiSelesai">
+                                </td>
+                                <td class="col-sm-1">
+                                    <input type="text" class="form-control" value="isiSelesai">
+                                </td>
+                                <td class="col-sm-1">
+                                    <input type="text" class="form-control" value="isiSelesai">
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <br>
+                </div>
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+        <!-- /.row -->
+    </div>
+    <!-- /.container-fluid -->
+    <footer class="footer text-center"> 2017 &copy; Ample Admin brought to you by themedesigner.in </footer>
+</div>
+
+
         <!-- ============================================================== -->
         <!-- End Page Content -->
         <!-- ============================================================== -->
     </div>
     <!-- /#wrapper -->
     <!-- jQuery -->
-    {{javascript_include('plugins/bower_components/jquery/dist/jquery.min.js')}}
+    <?= $this->tag->javascriptInclude('plugins/bower_components/jquery/dist/jquery.min.js') ?>
     <!-- Bootstrap Core JavaScript -->
-    {{javascript_include('bootstrap/dist/js/bootstrap.min.js')}}
+    <?= $this->tag->javascriptInclude('bootstrap/dist/js/bootstrap.min.js') ?>
     <!-- Menu Plugin JavaScript -->
-    {{javascript_include('plugins/bower_components/sidebar-nav/dist/sidebar-nav.min.js')}}
+    <?= $this->tag->javascriptInclude('plugins/bower_components/sidebar-nav/dist/sidebar-nav.min.js') ?>
     <!--slimscroll JavaScript -->
-    {{javascript_include('js/jquery.slimscroll.js')}}
+    <?= $this->tag->javascriptInclude('js/jquery.slimscroll.js') ?>
     <!--Wave Effects -->
-    {{javascript_include('js/waves.js')}}
+    <?= $this->tag->javascriptInclude('js/waves.js') ?>
     <!-- Custom Theme JavaScript -->
-    {{javascript_include('js/custom.min.js')}}
+    <?= $this->tag->javascriptInclude('js/custom.min.js') ?>
     <!-- Table JavaScript -->
-    {{javascript_include('plugins/bower_components/bootstrap-table/dist/bootstrap-table.min.js')}}
-    {{javascript_include('plugins/bower_components/bootstrap-table/dist/bootstrap-table.ints.js')}}
+    <?= $this->tag->javascriptInclude('plugins/bower_components/bootstrap-table/dist/bootstrap-table.min.js') ?>
+    <?= $this->tag->javascriptInclude('plugins/bower_components/bootstrap-table/dist/bootstrap-table.ints.js') ?>
 
     <!-- Plugin JavaScript -->
-    {{javascript_include('plugins/bower_components/moment/moment.js')}}
+    <?= $this->tag->javascriptInclude('plugins/bower_components/moment/moment.js') ?>
     <!-- Clock Plugin JavaScript -->
-    {{javascript_include('plugins/bower_components/clockpicker/dist/jquery-clockpicker.min.js')}}
+    <?= $this->tag->javascriptInclude('plugins/bower_components/clockpicker/dist/jquery-clockpicker.min.js') ?>
     <!-- Color Picker Plugin JavaScript -->
-    {{javascript_include('plugins/bower_components/jquery-asColorPicker-master/libs/jquery-asColor.js')}}
-    {{javascript_include('plugins/bower_components/jquery-asColorPicker-master/libs/jquery-asGradient.js')}}
-    {{javascript_include('plugins/bower_components/jquery-asColorPicker-master/dist/jquery-asColorPicker.min.js')}}
+    <?= $this->tag->javascriptInclude('plugins/bower_components/jquery-asColorPicker-master/libs/jquery-asColor.js') ?>
+    <?= $this->tag->javascriptInclude('plugins/bower_components/jquery-asColorPicker-master/libs/jquery-asGradient.js') ?>
+    <?= $this->tag->javascriptInclude('plugins/bower_components/jquery-asColorPicker-master/dist/jquery-asColorPicker.min.js') ?>
     <!-- Date Picker Plugin JavaScript -->
-    {{javascript_include('plugins/bower_components/bootstrap-datepicker/bootstrap-datepicker.min.js')}}
+    <?= $this->tag->javascriptInclude('plugins/bower_components/bootstrap-datepicker/bootstrap-datepicker.min.js') ?>
     <!-- Date range Plugin JavaScript -->
-    {{javascript_include('plugins/bower_components/timepicker/bootstrap-timepicker.min.js')}}
-    {{javascript_include('plugins/bower_components/bootstrap-daterangepicker/daterangepicker.js')}}
+    <?= $this->tag->javascriptInclude('plugins/bower_components/timepicker/bootstrap-timepicker.min.js') ?>
+    <?= $this->tag->javascriptInclude('plugins/bower_components/bootstrap-daterangepicker/daterangepicker.js') ?>
 
     <!--Style Switcher -->
-    {{javascript_include('plugins/bower_components/styleswitcher/jQuery.style.switcher.js')}}script>
+    <?= $this->tag->javascriptInclude('plugins/bower_components/styleswitcher/jQuery.style.switcher.js') ?>script>
 </body>
 
 </html>

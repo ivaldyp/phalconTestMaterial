@@ -24,7 +24,7 @@
                         <div class="form-group">
                             <label class="col-md-6">Kelas : Perangkat Lunak</label>
                             <div class="col-md-6">
-                                <input type="date" id="tanggal" name="tanggal" class="form-control datepicker" placeholder="Tanggal"> 
+                                <input type="date" id="tanggal" name="tanggal" class="form-control mydatepicker" placeholder="Tanggal"> 
                             </div>
                         </div>
                         <div class="form-group">
