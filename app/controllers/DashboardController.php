@@ -3,9 +3,9 @@
 class DashboardController extends \Phalcon\Mvc\Controller
 {
 
-    public function indexAction()
+    public function homeAction()
     {
-    	$this->view->pick("Dashboard/intro");
+    	$this->view->pick("Dashboard/home");
     }
 
     public function index2Action()
