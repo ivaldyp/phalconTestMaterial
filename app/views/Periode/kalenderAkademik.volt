@@ -5,7 +5,7 @@
     <div class="container-fluid">
         <div class="row bg-title">
             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                <h4 class="page-title">Historis Pembayaran Mahasiswa</h4> </div>
+                <h4 class="page-title">Periode Kalender Akademik</h4> </div>
             <div class="col-lg-8 col-sm-8 col-md-8 col-xs-12"> 
                 <ol class="breadcrumb">
                     <li><a href="#">Dashboard</a></li>
@@ -99,6 +99,9 @@
                             </tr>
                         </tbody>
                     </table>
+                    <div style="float: right;">
+                        <button class="btn btn-block btn-info" style="width: 120px">Simpan</button>
+                    </div>
                     <br>
                 </div>
             </div>
