@@ -105,26 +105,51 @@
             <div class="col-sm-2"></div>
             <div class="col-sm-8">
                 <div class="white-box">
-                    <h3 class="box-title m-b-0">MAHASISWA : IVALDY - 5114100105</h3>
-                    <!-- <p class="text-muted m-b-30">Simple table example</p> -->
-                    <table data-toggle="table" data-mobile-responsive="true" class="table-striped table-hover table-bordered">
-                        <thead>
-                            <tr>
-                                <th>Tahun Semester</th>
-                                <th>Tanggal Bayar & Bank</th>
-                                <th>Total Bayar</th>
-                                <th>Flag</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr id="tr-id-1" class="tr-class-1">
-                                <td id="td-id-1" class="td-class-1"> GENAP 2017 </td>
-                                <td>2018-01-28 MANDIRI</td>
-                                <td>4000000</td>
-                                <td>1</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                    <form class="form-horizontal">
+                        <div class="form-group">
+                            <label class="col-sm-2">Kelas Jurusan</label>
+                            <div class="col-sm-8">
+                                <select class="form-control">
+                                    <option>Dosen 1</option>
+                                    <option>Dosen 2</option>
+                                    <option>Dosen 3</option>
+                                    <option>Dosen 4</option>
+                                    <option>Dosen 5</option>
+                                </select>
+                            </div>
+                            <button type="button" class="btn col-sm-2 waves-effect waves-light btn-info">Tampil</button>
+                        </div>
+                    </form>
+                    <form class="form-horizontal">
+                        <div class="form-group">
+                            <label class="col-sm-2">Kelas MKIJ</label>
+                            <div class="col-sm-8">
+                                <select class="form-control">
+                                    <option>NRP1 - Mahasiswa</option>
+                                    <option>NRP1 - Mahasiswa</option>
+                                    <option>NRP3 - Mahasiswa</option>
+                                    <option>NRP4 - Mahasiswa</option>
+                                    <option>NRP5 - Mahasiswa</option>
+                                </select>
+                            </div>
+                            <button type="button" class="btn col-sm-2 waves-effect waves-light btn-info">Pilih</button>
+                        </div>
+                    </form>
+                    <form class="form-horizontal">
+                        <div class="form-group">
+                            <label class="col-sm-2">Kelas UPMB</label>
+                            <div class="col-sm-8">
+                                <select class="form-control">
+                                    <option>NRP1 - Mahasiswa</option>
+                                    <option>NRP1 - Mahasiswa</option>
+                                    <option>NRP3 - Mahasiswa</option>
+                                    <option>NRP4 - Mahasiswa</option>
+                                    <option>NRP5 - Mahasiswa</option>
+                                </select>
+                            </div>
+                            <button type="button" class="btn col-sm-2 waves-effect waves-light btn-info">Pilih</button>
+                        </div>
+                    </form>
                 </div>
             </div>
             <div class="col-sm-2"></div>
