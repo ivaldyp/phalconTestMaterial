@@ -3,9 +3,9 @@
 class DashboardController extends \Phalcon\Mvc\Controller
 {
 
-    public function homeAction()
+    public function homeMahasiswaAction()
     {
-    	$this->view->pick("Dashboard/home");
+    	$this->view->pick("Dashboard/homeMahasiswa");
     }
 
     public function blankAction()

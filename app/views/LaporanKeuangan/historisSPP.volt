@@ -22,7 +22,7 @@
                 <div class="white-box">
                     <h3 class="box-title m-b-0">MAHASISWA : IVALDY - 5114100105</h3>
                     <!-- <p class="text-muted m-b-30">Simple table example</p> -->
-                    <table data-toggle="table" data-mobile-responsive="true" class="table-striped">
+                    <table data-toggle="table" data-mobile-responsive="true" class="table-striped table-hover table-bordered">
                         <thead>
                             <tr>
                                 <th>Tahun Semester</th>
@@ -41,7 +41,7 @@
                         </tbody>
                     </table>
                     <br>
-                    <table data-toggle="table" data-mobile-responsive="true" class="table-borderless">
+                    <table data-toggle="table" data-mobile-responsive="true" class="table-striped table-hover table-bordered">
                         <thead>
                             <tr>
                                 <th>Jenis Pembayaran</th>

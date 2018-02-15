@@ -205,45 +205,87 @@
                                 <td>16 <br> September <br> 2017</td>
                                 <td>10 <br> November <br> 2017</td>
                             </tr>
-                            <tr>
-                                <td class="col-sm-1">
-                                    <select class="form-control">
-                                        <option>1</option>
-                                        <option>2</option>
-                                        <option>3</option>
-                                        <option>4</option>
-                                        <option>5</option>
-                                    </select>
-                                </td>
-                                <td class="col-sm-1">
-                                    <select class="form-control">
-                                        <option>Gasal</option>
-                                        <option>Genap</option>
-                                    </select>
-                                </td>
-                                <td class="col-sm-1">
-                                    <input type="text" class="form-control date" value="isiMulai">
-                                </td>
-                                <td class="col-sm-1">
-                                    <input type="text" class="form-control" value="isiSelesai">
-                                </td>
-                                <td class="col-sm-1">
-                                    <input type="text" class="form-control" value="isiSelesai">
-                                </td>
-                                <td class="col-sm-1">
-                                    <input type="text" class="form-control" value="isiSelesai">
-                                </td>
-                                <td class="col-sm-1">
-                                    <input type="text" class="form-control" value="isiSelesai">
-                                </td>
-                                <td class="col-sm-1">
-                                    <input type="text" class="form-control" value="isiSelesai">
-                                </td>
-                            </tr>
                         </tbody>
                     </table>
                     <div style="float: right;">
-                        <button class="btn btn-block btn-info" style="width: 120px">Simpan</button>
+                        <button class="btn btn-block btn-info" data-toggle="modal" data-target="#exampleModal" style="width: 120px">Ubah</button>
+                        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel1">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button> -->
+                                        <h4 class="modal-title" id="exampleModalLabel1">Ubah Kalender Akademik</h4> </div>
+                                    <div class="modal-body">
+                                        <form>
+                                            <h3>PERIODE</h3>
+                                            <div class="form-group">
+                                                <label for="recipient-name" class="control-label">Tahun</label>
+                                                <div>
+                                                    <select class="form-control">
+                                                        <option value="2017">2017</option>
+                                                        <option value="2018">2018</option>
+                                                        <option value="2019">2019</option>
+                                                        <option value="2020">2020</option>
+                                                        <option value="2021">2021</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="recipient-name" class="control-label">Semester</label>
+                                                <div>
+                                                    <select class="form-control">
+                                                        <option value="1">Gasal</option>
+                                                        <option value="2">Genap</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+
+                                            <hr>
+
+                                            <h3>PENGISIAN</h3>
+                                            <div class="form-group">
+                                                <label for="recipient-name" class="control-label">Mulai</label>
+                                                <input type="date" class="form-control" id="pengisianMulai"> 
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="recipient-name" class="control-label">Selesai</label>
+                                                <input type="date" class="form-control" id="pengisianSelesai"> 
+                                            </div>
+                                                
+                                            <hr>
+
+                                            <h3>PENGUBAHAN</h3>
+                                            <div class="form-group">
+                                                <label for="recipient-name" class="control-label">Mulai</label>
+                                                <input type="date" class="form-control" id="pengubahanMulai"> 
+                                            </div>
+
+                                            <div class="form-group">
+                                                <label for="recipient-name" class="control-label">Selesai</label>
+                                                <input type="date" class="form-control" id="pengubahanSelesai"> 
+                                            </div>
+
+                                            <hr>
+
+                                            <h3>PEMBATALAN</h3>
+                                            <div class="form-group">
+                                                <label for="recipient-name" class="control-label">Mulai</label>
+                                                <input type="date" class="form-control" id="pembatalanMulai"> 
+                                            </div>
+
+                                            <div class="form-group">
+                                                <label for="recipient-name" class="control-label">Selesai</label>
+                                                <input type="date" class="form-control" id="pembatalanSelesai"> 
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Batal</button>
+                                        <button type="button" class="btn btn-info">Simpan</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <br>
                 </div>
