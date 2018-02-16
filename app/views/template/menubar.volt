@@ -12,6 +12,8 @@
     <!-- Bootstrap Core CSS -->
     {{stylesheet_link('bootstrap/dist/css/bootstrap.min.css')}}
     {{stylesheet_link('plugins/bower_components/bootstrap-table/dist/bootstrap-table.min.css')}}
+    <!-- Morris CSS -->
+    {{stylesheet_link('plugins/bower_components/morrisjs/morris.css" rel="stylesheet')}}
     <!-- Menu CSS -->
     {{stylesheet_link('plugins/bower_components/sidebar-nav/dist/sidebar-nav.min.css')}}
     <!-- Page plugins css -->
@@ -161,10 +163,13 @@
     {{javascript_include('js/waves.js')}}
     <!-- Custom Theme JavaScript -->
     {{javascript_include('js/custom.min.js')}}
+    <!--Morris JavaScript -->
+    {{javascript_include('plugins/bower_components/raphael/raphael-min.js')}}
+    {{javascript_include('plugins/bower_components/morrisjs/morris.js')}}
+    {{javascript_include('js/morris-data.js')}}
     <!-- Table JavaScript -->
     {{javascript_include('plugins/bower_components/bootstrap-table/dist/bootstrap-table.min.js')}}
     {{javascript_include('plugins/bower_components/bootstrap-table/dist/bootstrap-table.ints.js')}}
-
     <!-- Plugin JavaScript -->
     {{javascript_include('plugins/bower_components/moment/moment.js')}}
     <!-- Clock Plugin JavaScript -->

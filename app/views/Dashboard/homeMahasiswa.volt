@@ -3,6 +3,8 @@
 
 <div id="page-wrapper">
     <div class="container-fluid">
+
+        <!-- NEW ROW -->
         <div class="row">
             <div class="col-md-12">
                 <div class="white-box">
@@ -10,6 +12,8 @@
                 </div>
             </div>
         </div>
+
+        <!-- NEW ROW -->
         <div class="row">
             <div class="col-sm-12">
                 <div class="white-box">
@@ -20,13 +24,12 @@
                                     <span class="circle circle-md bg-danger"><i class="ti-clipboard"></i></span>
                                 </li>
                                 <li class="col-last">
-                                    <h3 class="counter text-right m-t-15">3.00</h3>
+                                    <h3 class="counter text-right m-t-15">3.00 <i class="ti-arrow-up text-success"></i></h3>
                                 </li>
                                 <li class="col-middle">
                                     <h4>IPS</h4>
                                     <div class="progress">
                                         <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 75%"> 
-                                            <span class="sr-only">3.00</span> 
                                         </div>
                                     </div>
                                 </li>    
@@ -38,13 +41,12 @@
                                     <span class="circle circle-md bg-info"><i class="ti-clipboard"></i></span>
                                 </li>
                                 <li class="col-last">
-                                    <h3 class="counter text-right m-t-15">4.00</h3>
+                                    <h3 class="counter text-right m-t-15">3.56 <i class="ti-arrow-down text-danger"></i></h3>
                                 </li>
                                 <li class="col-middle">
                                     <h4>IPK</h4>
                                     <div class="progress">
                                         <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%"> 
-                                            <span class="sr-only">4.00</span> 
                                         </div>
                                     </div>
                                 </li>    
@@ -90,12 +92,14 @@
                 </div>
             </div>
         </div>
+
+        <!-- NEW ROW -->
         <div class="row">
             <div class="col-lg-8">
                 <div class="row">
                     <div class="col-sm-12">
                         <div class="white-box">
-                            <h3 class="box-title m-b-0" style="text-align: center;">Perkuliahan Mahasiswa</h3>
+                            <h1 class="box-title m-b-0" style="text-align: center;">Perkuliahan Mahasiswa</h1>
                             <!-- <p class="text-muted m-b-20">Add<code>.table-bordered</code>for borders on all sides of the table and cells.</p> -->
                             <br>
                             <div class="table-responsive">
@@ -184,20 +188,46 @@
             </div>
             <div class="col-md-4">
                 <div class="white-box">
-                    <h3 class="box-title m-b-0" style="text-align: center;">Tanggal Penting</h3>
-                    <table data-toggle="table" data-height="200" data-mobile-responsive="true" class="table">
+                    <h1 class="box-title m-b-0" style="text-align: center;">Tanggal Penting</h1>
+                    <table data-toggle="table" data-height="160" data-mobile-responsive="true" class="table">
                         <thead>
                             <tr>
-                                <th class="col-sm-4">Tanggal</th>
-                                <th class="col-sm-8">Acara</th>
+                                <th class="col-sm-3">Tanggal</th>
+                                <th >Acara</th>
                             </tr>
                         </thead>
+                        <tbody>
+                            <tr>
+                                <td>24/02/2018</td>
+                                <td>Batas Isi FRS</td>
+                            </tr>
+                            <tr>
+                                <td>24/02/2018</td>
+                                <td>Batas Isi FRS</td>
+                            </tr>
+                            <tr>
+                                <td>24/02/2018</td>
+                                <td>Batas Isi FRS</td>
+                            </tr>
+                            <tr>
+                                <td>24/02/2018</td>
+                                <td>Batas Isi FRS</td>
+                            </tr>
+                            <tr>
+                                <td>24/02/2018</td>
+                                <td>Batas Isi FRS</td>
+                            </tr>
+                            <tr>
+                                <td>24/02/2018</td>
+                                <td>Batas Isi FRS</td>
+                            </tr>
+                        </tbody>
                     </table>
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="white-box">
-                    <h3 class="box-title m-b-0" style="text-align: center;">Dosen Wali</h3>
+                <div class="white-box" style="padding-bottom: 14px">
+                    <h1 class="box-title m-b-0" style="text-align: center;">Dosen Wali</h1>
                     <div>
                         <div class="panel">
                             <div class="p-30">
@@ -216,8 +246,81 @@
                 </div>
             </div>   
         </div> 
+
+        <!-- NEW ROW -->
         <div class="row">
             
+            <div class="col-sm-6">
+                <div class="white-box">
+                    <h1 class="box-title" style="text-align: center;">Pengumuman</h1>
+                    <table data-toggle="table" data-height="279" data-mobile-responsive="true" class="table">
+                        <thead>
+                            <tr>
+                                <th class="col-sm-3">Tanggal</th>
+                                <th >Acara</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>24/02/2018</td>
+                                <td>Batas Isi FRS</td>
+                            </tr>
+                            <tr>
+                                <td>24/02/2018</td>
+                                <td>Batas Isi FRS</td>
+                            </tr>
+                            <tr>
+                                <td>24/02/2018</td>
+                                <td>Batas Isi FRS</td>
+                            </tr>
+                            <tr>
+                                <td>24/02/2018</td>
+                                <td>Batas Isi FRS</td>
+                            </tr>
+                            <tr>
+                                <td>24/02/2018</td>
+                                <td>Batas Isi FRS</td>
+                            </tr>
+                            <tr>
+                                <td>24/02/2018</td>
+                                <td>Batas Isi FRS</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="white-box">
+                    <h1 class="box-title" style="text-align: center;">STATUS</h1>
+                    <ul class="list-inline text-right">
+                        <li><h5><i class="fa fa-circle" style="color: #00bfc7;"></i>iPhone</h5> </li>
+                    </ul>
+                    <div id="morris-area-chart"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- NEW ROW -->
+        <div class="row">
+            <div class="col-sm-8">
+                <div class="white-box">
+                    
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="white-box">
+                    <h1 class="box-title" style="text-align: center;">Status</h1>
+                    <div class="panel panel-info">
+                        <div class="panel-heading">SPP Sudah Terbayar</div>
+                    </div>
+                    <div class="panel panel-danger">
+                        <div class="panel-heading">FRS Belum Terisi</div>
+                    </div>
+                    <div class="panel panel-danger">
+                        <div class="panel-heading">IPD Belum Terisi</div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <!-- /.container-fluid -->

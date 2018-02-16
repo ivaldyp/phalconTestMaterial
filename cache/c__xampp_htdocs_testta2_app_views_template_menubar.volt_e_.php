@@ -1,4 +1,4 @@
-a:3:{i:0;s:10371:"<!DOCTYPE html>
+a:3:{i:0;s:10500:"<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -12,6 +12,8 @@ a:3:{i:0;s:10371:"<!DOCTYPE html>
     <!-- Bootstrap Core CSS -->
     <?= $this->tag->stylesheetLink('bootstrap/dist/css/bootstrap.min.css') ?>
     <?= $this->tag->stylesheetLink('plugins/bower_components/bootstrap-table/dist/bootstrap-table.min.css') ?>
+    <!-- Morris CSS -->
+    <?= $this->tag->stylesheetLink('plugins/bower_components/morrisjs/morris.css" rel="stylesheet') ?>
     <!-- Menu CSS -->
     <?= $this->tag->stylesheetLink('plugins/bower_components/sidebar-nav/dist/sidebar-nav.min.css') ?>
     <!-- Page plugins css -->
@@ -143,7 +145,7 @@ a:3:{i:0;s:10371:"<!DOCTYPE html>
         <!-- Page Content -->
         <!-- ============================================================== -->
         ";s:7:"content";a:1:{i:0;a:4:{s:4:"type";i:357;s:5:"value";s:10:"
-        ";s:4:"file";s:55:"C:\xampp\htdocs\testTA2/app/views/template/menubar.volt";s:4:"line";i:146;}}i:1;s:2449:"
+        ";s:4:"file";s:55:"C:\xampp\htdocs\testTA2/app/views/template/menubar.volt";s:4:"line";i:148;}}i:1;s:2723:"
         <!-- ============================================================== -->
         <!-- End Page Content -->
         <!-- ============================================================== -->
@@ -161,10 +163,13 @@ a:3:{i:0;s:10371:"<!DOCTYPE html>
     <?= $this->tag->javascriptInclude('js/waves.js') ?>
     <!-- Custom Theme JavaScript -->
     <?= $this->tag->javascriptInclude('js/custom.min.js') ?>
+    <!--Morris JavaScript -->
+    <?= $this->tag->javascriptInclude('plugins/bower_components/raphael/raphael-min.js') ?>
+    <?= $this->tag->javascriptInclude('plugins/bower_components/morrisjs/morris.js') ?>
+    <?= $this->tag->javascriptInclude('js/morris-data.js') ?>
     <!-- Table JavaScript -->
     <?= $this->tag->javascriptInclude('plugins/bower_components/bootstrap-table/dist/bootstrap-table.min.js') ?>
     <?= $this->tag->javascriptInclude('plugins/bower_components/bootstrap-table/dist/bootstrap-table.ints.js') ?>
-
     <!-- Plugin JavaScript -->
     <?= $this->tag->javascriptInclude('plugins/bower_components/moment/moment.js') ?>
     <!-- Clock Plugin JavaScript -->
