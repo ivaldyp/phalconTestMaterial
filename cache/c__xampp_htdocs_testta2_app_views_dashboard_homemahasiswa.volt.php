@@ -398,37 +398,37 @@
             <div class="col-sm-6">
                 <div class="white-box">
                     <h1 class="box-title" style="text-align: center;">Pengumuman</h1>
-                    <table data-toggle="table" data-height="279" data-mobile-responsive="true" class="table">
+                    <table data-height="279" data-mobile-responsive="true" class="table table-hover manage-u-table">
                         <thead>
                             <tr>
                                 <th class="col-sm-3">Tanggal</th>
-                                <th >Acara</th>
+                                <th>Notif</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
                                 <td>24/02/2018</td>
-                                <td>Batas Isi FRS</td>
+                                <td>Update Peta baru Fearless Fiore</td>
                             </tr>
                             <tr>
                                 <td>24/02/2018</td>
-                                <td>Batas Isi FRS</td>
+                                <td>Event Valentine Wall of Love</td>
                             </tr>
                             <tr>
                                 <td>24/02/2018</td>
-                                <td>Batas Isi FRS</td>
+                                <td>Maintenance pukul 10-15 </td>
                             </tr>
                             <tr>
                                 <td>24/02/2018</td>
-                                <td>Batas Isi FRS</td>
+                                <td>Melakukan Nerf dan Buff pada beberapa hero</td>
                             </tr>
                             <tr>
                                 <td>24/02/2018</td>
-                                <td>Batas Isi FRS</td>
+                                <td>Update Weapon dan alat-alat lainnya</td>
                             </tr>
                             <tr>
                                 <td>24/02/2018</td>
-                                <td>Batas Isi FRS</td>
+                                <td>Event 300% EXP akhir Januari</td>
                             </tr>
                         </tbody>
                     </table>
@@ -436,11 +436,11 @@
             </div>
             <div class="col-sm-6">
                 <div class="white-box">
-                    <h1 class="box-title" style="text-align: center;">STATUS</h1>
+                    <h1 class="box-title" style="text-align: center;">Chart IPS</h1>
                     <ul class="list-inline text-right">
                         <li><h5><i class="fa fa-circle" style="color: #00bfc7;"></i>iPhone</h5> </li>
                     </ul>
-                    <!-- <div id="morris-area-chart"></div> -->
+                    <div id="morris-area-chart"></div>
                 </div>
             </div>
         </div>
@@ -448,12 +448,54 @@
         <!-- NEW ROW -->
         <div class="row">
             <div class="col-sm-8">
-                <div class="white-box">
-                    
+                <div class="white-box" >
+                    <h1 class="box-title" style="text-align: center;">Absensi</h1>
+                    <div class="row">
+                        <div class="col-sm-6" style="padding-bottom: 10px ">
+                            <h4>Matkul 1<span class="pull-right">16/16</span></h4>
+                            <div class="progress progress-lg">
+                                <div class="progress-bar progress-bar-success" style="width: 100%;" role="progressbar">100%</div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6" style="padding-bottom: 10px ">
+                            <h4>Matkul 1<span class="pull-right">16/16</span></h4>
+                            <div class="progress progress-lg">
+                                <div class="progress-bar progress-bar-success" style="width: 100%;" role="progressbar">100%</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6" style="padding-bottom: 10px ">
+                            <h4>Matkul 1<span class="pull-right">14/16</span></h4>
+                            <div class="progress progress-lg">
+                                <div class="progress-bar progress-bar-info" style="width: 87%;" role="progressbar">87.5%</div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6" style="padding-bottom: 10px ">
+                            <h4>Matkul 1<span class="pull-right">14/16</span></h4>
+                            <div class="progress progress-lg">
+                                <div class="progress-bar progress-bar-info" style="width: 87%;" role="progressbar">87.5%</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6" style="padding-bottom: 10px ">
+                            <h4>Matkul 1<span class="pull-right">12/16</span></h4>
+                            <div class="progress progress-lg">
+                                <div class="progress-bar progress-bar-danger" style="width: 75%;" role="progressbar">75%</div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6" style="padding-bottom: 10px ">
+                            <h4>Matkul 1<span class="pull-right">12/16</span></h4>
+                            <div class="progress progress-lg">
+                                <div class="progress-bar progress-bar-danger" style="width: 75%;" role="progressbar">75%</div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="col-sm-4">
-                <div class="white-box">
+                <div class="white-box" style="padding-bottom: 15px">
                     <h1 class="box-title" style="text-align: center;">Status</h1>
                     <div class="panel panel-info">
                         <div class="panel-heading">SPP Sudah Terbayar</div>
