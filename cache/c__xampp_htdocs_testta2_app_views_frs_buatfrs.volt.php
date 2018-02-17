@@ -12,6 +12,9 @@
     <!-- Bootstrap Core CSS -->
     <?= $this->tag->stylesheetLink('bootstrap/dist/css/bootstrap.min.css') ?>
     <?= $this->tag->stylesheetLink('plugins/bower_components/bootstrap-table/dist/bootstrap-table.min.css') ?>
+    <!-- Morris CSS -->
+    <?= $this->tag->stylesheetLink('plugins/bower_components/morrisjs/morris.css" rel="stylesheet') ?>
+    <?= $this->tag->stylesheetLink('//cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.css') ?>
     <!-- Menu CSS -->
     <?= $this->tag->stylesheetLink('plugins/bower_components/sidebar-nav/dist/sidebar-nav.min.css') ?>
     <!-- Page plugins css -->
@@ -238,9 +241,9 @@
         <div class="row">
             <div class="col-sm-2"></div>
             <div class="col-sm-8">
-                <!-- <div class="white-box"> -->
-                    <h3 class="panel" style="text-align: center; pad">UDAH SETUJU</h3>
-                <!-- </div> -->
+                <div class="panel panel-info">
+                        <div class="panel-heading" style="text-align: center;">FRS TELAH DISETUJUI</div>
+                    </div>
             </div>
             <div class="col-sm-2"></div>
         </div>
@@ -321,10 +324,17 @@
     <?= $this->tag->javascriptInclude('js/waves.js') ?>
     <!-- Custom Theme JavaScript -->
     <?= $this->tag->javascriptInclude('js/custom.min.js') ?>
+    <!--Morris JavaScript -->
+    <?= $this->tag->javascriptInclude('plugins/bower_components/raphael/raphael-min.js') ?>
+    <?= $this->tag->javascriptInclude('plugins/bower_components/morrisjs/morris.js') ?>
+    <?= $this->tag->javascriptInclude('js/morris-data.js') ?>
+    <?= $this->tag->javascriptInclude('js/testmorris.js') ?>
+    <?= $this->tag->javascriptInclude('//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js') ?>
+    <?= $this->tag->javascriptInclude('//cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js') ?>
+    <?= $this->tag->javascriptInclude('//cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.min.js') ?>
     <!-- Table JavaScript -->
     <?= $this->tag->javascriptInclude('plugins/bower_components/bootstrap-table/dist/bootstrap-table.min.js') ?>
     <?= $this->tag->javascriptInclude('plugins/bower_components/bootstrap-table/dist/bootstrap-table.ints.js') ?>
-
     <!-- Plugin JavaScript -->
     <?= $this->tag->javascriptInclude('plugins/bower_components/moment/moment.js') ?>
     <!-- Clock Plugin JavaScript -->
