@@ -14,6 +14,7 @@
     {{stylesheet_link('plugins/bower_components/bootstrap-table/dist/bootstrap-table.min.css')}}
     <!-- Morris CSS -->
     {{stylesheet_link('plugins/bower_components/morrisjs/morris.css" rel="stylesheet')}}
+    {{stylesheet_link('//cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.css')}}
     <!-- Menu CSS -->
     {{stylesheet_link('plugins/bower_components/sidebar-nav/dist/sidebar-nav.min.css')}}
     <!-- Page plugins css -->
@@ -167,6 +168,10 @@
     {{javascript_include('plugins/bower_components/raphael/raphael-min.js')}}
     {{javascript_include('plugins/bower_components/morrisjs/morris.js')}}
     {{javascript_include('js/morris-data.js')}}
+    {{javascript_include('js/testmorris.js')}}
+    {{javascript_include('//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js')}}
+    {{javascript_include('//cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js')}}
+    {{javascript_include('//cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.min.js')}}
     <!-- Table JavaScript -->
     {{javascript_include('plugins/bower_components/bootstrap-table/dist/bootstrap-table.min.js')}}
     {{javascript_include('plugins/bower_components/bootstrap-table/dist/bootstrap-table.ints.js')}}

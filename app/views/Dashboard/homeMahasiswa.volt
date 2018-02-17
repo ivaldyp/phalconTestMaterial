@@ -290,12 +290,12 @@
                 </div>
             </div>
             <div class="col-sm-6">
-                <div class="white-box">
+                <div class="white-box" style="padding-bottom: 43px">
                     <h1 class="box-title" style="text-align: center;">Chart IPS</h1>
-                    <ul class="list-inline text-right">
+                    <!-- <ul class="list-inline text-right">
                         <li><h5><i class="fa fa-circle" style="color: #00bfc7;"></i>iPhone</h5> </li>
-                    </ul>
-                    <div id="morris-area-chart"></div>
+                    </ul> -->
+                    <div id="myfirstchart"></div>
                 </div>
             </div>
         </div>
@@ -350,7 +350,7 @@
                 </div>
             </div>
             <div class="col-sm-4">
-                <div class="white-box" style="padding-bottom: 15px">
+                <div class="white-box" style="padding-bottom: 16px">
                     <h1 class="box-title" style="text-align: center;">Status</h1>
                     <div class="panel panel-info">
                         <div class="panel-heading">SPP Sudah Terbayar</div>

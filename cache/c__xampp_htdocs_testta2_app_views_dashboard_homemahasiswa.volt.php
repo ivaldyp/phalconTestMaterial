@@ -14,6 +14,7 @@
     <?= $this->tag->stylesheetLink('plugins/bower_components/bootstrap-table/dist/bootstrap-table.min.css') ?>
     <!-- Morris CSS -->
     <?= $this->tag->stylesheetLink('plugins/bower_components/morrisjs/morris.css" rel="stylesheet') ?>
+    <?= $this->tag->stylesheetLink('//cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.css') ?>
     <!-- Menu CSS -->
     <?= $this->tag->stylesheetLink('plugins/bower_components/sidebar-nav/dist/sidebar-nav.min.css') ?>
     <!-- Page plugins css -->
@@ -435,12 +436,12 @@
                 </div>
             </div>
             <div class="col-sm-6">
-                <div class="white-box">
+                <div class="white-box" style="padding-bottom: 43px">
                     <h1 class="box-title" style="text-align: center;">Chart IPS</h1>
-                    <ul class="list-inline text-right">
+                    <!-- <ul class="list-inline text-right">
                         <li><h5><i class="fa fa-circle" style="color: #00bfc7;"></i>iPhone</h5> </li>
-                    </ul>
-                    <div id="morris-area-chart"></div>
+                    </ul> -->
+                    <div id="myfirstchart"></div>
                 </div>
             </div>
         </div>
@@ -495,7 +496,7 @@
                 </div>
             </div>
             <div class="col-sm-4">
-                <div class="white-box" style="padding-bottom: 15px">
+                <div class="white-box" style="padding-bottom: 16px">
                     <h1 class="box-title" style="text-align: center;">Status</h1>
                     <div class="panel panel-info">
                         <div class="panel-heading">SPP Sudah Terbayar</div>
@@ -536,6 +537,10 @@
     <?= $this->tag->javascriptInclude('plugins/bower_components/raphael/raphael-min.js') ?>
     <?= $this->tag->javascriptInclude('plugins/bower_components/morrisjs/morris.js') ?>
     <?= $this->tag->javascriptInclude('js/morris-data.js') ?>
+    <?= $this->tag->javascriptInclude('js/testmorris.js') ?>
+    <?= $this->tag->javascriptInclude('//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js') ?>
+    <?= $this->tag->javascriptInclude('//cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js') ?>
+    <?= $this->tag->javascriptInclude('//cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.min.js') ?>
     <!-- Table JavaScript -->
     <?= $this->tag->javascriptInclude('plugins/bower_components/bootstrap-table/dist/bootstrap-table.min.js') ?>
     <?= $this->tag->javascriptInclude('plugins/bower_components/bootstrap-table/dist/bootstrap-table.ints.js') ?>
