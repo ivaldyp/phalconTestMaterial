@@ -151,7 +151,7 @@
     <div class="container-fluid">
         <div class="row bg-title">
             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                <h4 class="page-title">Periode Kalender Akademik</h4> </div>
+                <h4 class="page-title">Data Periode Sekarang</h4> </div>
             <div class="col-lg-8 col-sm-8 col-md-8 col-xs-12"> 
                 <ol class="breadcrumb">
                     <li><a href="#">Dashboard</a></li>
@@ -180,33 +180,20 @@
                     <table class="table table-bordered table-hover table-striped" style="text-align: center;">
                         <thead>
                             <tr>
-                                <th class="col-sm-2" colspan="2" style="text-align: center;">Periode</th>
-                                <!-- <th>Progress</th> -->
-                                <th class="col-sm-2" colspan="2" style="text-align: center;">Pengisian</th>
-                                <th class="col-sm-2" colspan="2" style="text-align: center;">Perubahan</th>
-                                <th class="col-sm-2" colspan="2" style="text-align: center;">Pembatalan</th>
-                            </tr>
-                            <tr>
-                                <th class="col-sm-1" style="text-align: center;">Tahun</th>
-                                <th class="col-sm-1" style="text-align: center;">Semester</th>
-                                <th class="col-sm-1" style="text-align: center;">Mulai</th>
-                                <th class="col-sm-1" style="text-align: center;">Selesai</th>
-                                <th class="col-sm-1" style="text-align: center;">Mulai</th>
-                                <th class="col-sm-1" style="text-align: center;">Selesai</th>
-                                <th class="col-sm-1" style="text-align: center;">Mulai</th>
-                                <th class="col-sm-1" style="text-align: center;">Selesai</th>
+                                <th class="col-sm-1" style="text-align: center;">Tahun Ajaran</th>
+                                <th class="col-sm-1" style="text-align: center;">Semester Ajaran</th>
+                                <th class="col-sm-1" style="text-align: center;">Tahun Kurikulum</th>
+                                <th class="col-sm-1" style="text-align: center;">Tahun Ajaran Lalu</th>
+                                <th class="col-sm-1" style="text-align: center;">Semester Ajaran Lalu</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
                                 <td>2017</td>
                                 <td>Gasal</td>
-                                <td>21 <br> Agustus <br> 2017</td>
-                                <td>25 <br> Agustus <br> 2017</td>
-                                <td>26 <br> Agustus <br> 2017</td>
-                                <td>15 <br> September <br> 2017</td>
-                                <td>16 <br> September <br> 2017</td>
-                                <td>10 <br> November <br> 2017</td>
+                                <td>Kurikulum 2014</td>
+                                <td>2016</td>
+                                <td>Genap</td>
                             </tr>
                         </tbody>
                     </table>
@@ -217,12 +204,11 @@
                                 <div class="modal-content">
                                     <div class="modal-header">
                                         <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button> -->
-                                        <h4 class="modal-title" id="exampleModalLabel1">Ubah Kalender Akademik</h4> </div>
+                                        <h4 class="modal-title" id="exampleModalLabel1">Ubah Data Periode Sekarang</h4> </div>
                                     <div class="modal-body">
                                         <form>
-                                            <h3>PERIODE</h3>
                                             <div class="form-group">
-                                                <label for="recipient-name" class="control-label">Tahun</label>
+                                                <label for="recipient-name" class="control-label">Tahun Ajaran</label>
                                                 <div>
                                                     <select class="form-control">
                                                         <option value="2017">2017</option>
@@ -234,51 +220,38 @@
                                                 </div>
                                             </div>
                                             <div class="form-group">
-                                                <label for="recipient-name" class="control-label">Semester</label>
+                                                <label for="recipient-name" class="control-label">Semester Ajaran</label>
                                                 <div>
                                                     <select class="form-control">
-                                                        <option value="1">Gasal</option>
-                                                        <option value="2">Genap</option>
+                                                        <option value="Gasal">Gasal</option>
+                                                        <option value="Genap">Genap</option>
                                                     </select>
                                                 </div>
                                             </div>
-
-                                            <hr>
-
-                                            <h3>PENGISIAN</h3>
                                             <div class="form-group">
-                                                <label for="recipient-name" class="control-label">Mulai</label>
-                                                <input type="date" class="form-control" id="pengisianMulai"> 
+                                                <label for="recipient-name" class="control-label">Tahun Kurikulum</label>
+                                                <input type="text" class="form-control" id="pengisianSelesai"> 
                                             </div>
                                             <div class="form-group">
-                                                <label for="recipient-name" class="control-label">Selesai</label>
-                                                <input type="date" class="form-control" id="pengisianSelesai"> 
+                                                <label for="recipient-name" class="control-label">Tahun Ajaran Lalu</label>
+                                                <div>
+                                                    <select class="form-control">
+                                                        <option value="2016">2016</option>
+                                                        <option value="2017">2017</option>
+                                                        <option value="2018">2018</option>
+                                                        <option value="2019">2019</option>
+                                                        <option value="2020">2020</option>
+                                                    </select>
+                                                </div>
                                             </div>
-                                                
-                                            <hr>
-
-                                            <h3>PENGUBAHAN</h3>
                                             <div class="form-group">
-                                                <label for="recipient-name" class="control-label">Mulai</label>
-                                                <input type="date" class="form-control" id="pengubahanMulai"> 
-                                            </div>
-
-                                            <div class="form-group">
-                                                <label for="recipient-name" class="control-label">Selesai</label>
-                                                <input type="date" class="form-control" id="pengubahanSelesai"> 
-                                            </div>
-
-                                            <hr>
-
-                                            <h3>PEMBATALAN</h3>
-                                            <div class="form-group">
-                                                <label for="recipient-name" class="control-label">Mulai</label>
-                                                <input type="date" class="form-control" id="pembatalanMulai"> 
-                                            </div>
-
-                                            <div class="form-group">
-                                                <label for="recipient-name" class="control-label">Selesai</label>
-                                                <input type="date" class="form-control" id="pembatalanSelesai"> 
+                                                <label for="recipient-name" class="control-label">Semester Ajaran Lalu</label>
+                                                <div>
+                                                    <select class="form-control">
+                                                        <option value="Gasal">Gasal</option>
+                                                        <option value="Genap">Genap</option>
+                                                    </select>
+                                                </div>
                                             </div>
                                         </form>
                                     </div>

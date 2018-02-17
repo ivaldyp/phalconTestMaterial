@@ -8,5 +8,10 @@ class PeriodeController extends \Phalcon\Mvc\Controller
     	$this->view->pick("Periode/kalenderAkademik");
     }
 
+    public function dataSekarangAction()
+    {
+    	$this->view->pick("Periode/dataSekarang");
+    }
+
 }
 
