@@ -22,7 +22,7 @@
                 <div class="white-box">
                     <form class="form-horizontal">
                         <div class="form-group">
-                            <label class="col-sm-3">Dosen Wali</label>
+                            <label class="col-sm-3" style="top: 10px">Dosen Wali</label>
                             <div class="col-sm-6">
                                 <select class="form-control">
                                     <option>Dosen 1</option>
@@ -37,7 +37,7 @@
                     </form>
                     <form class="form-horizontal">
                         <div class="form-group">
-                            <label class="col-sm-3">Mahasiswa</label>
+                            <label class="col-sm-3" style="top: 10px">Mahasiswa</label>
                             <div class="col-sm-6">
                                 <select class="form-control">
                                     <option>NRP1 - Mahasiswa</option>

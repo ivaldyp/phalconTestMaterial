@@ -13,8 +13,11 @@
     <?= $this->tag->stylesheetLink('bootstrap/dist/css/bootstrap.min.css') ?>
     <?= $this->tag->stylesheetLink('plugins/bower_components/bootstrap-table/dist/bootstrap-table.min.css') ?>
     <!-- Morris CSS -->
-    <?= $this->tag->stylesheetLink('plugins/bower_components/morrisjs/morris.css" rel="stylesheet') ?>
+    <?= $this->tag->stylesheetLink('plugins/bower_components/morrisjs/morris.css') ?>
     <?= $this->tag->stylesheetLink('//cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.css') ?>
+    <!-- Footable CSS -->
+    <?= $this->tag->stylesheetLink('plugins/bower_components/footable/css/footable.core.css') ?>    
+    <?= $this->tag->stylesheetLink('plugins/bower_components/bootstrap-select/bootstrap-select.min.css') ?>
     <!-- Menu CSS -->
     <?= $this->tag->stylesheetLink('plugins/bower_components/sidebar-nav/dist/sidebar-nav.min.css') ?>
     <!-- Page plugins css -->
@@ -149,7 +152,6 @@
 
 <div id="page-wrapper">
     <div class="container-fluid">
-
         <!-- NEW ROW -->
         <div class="row">
             <div class="col-md-12">
@@ -158,7 +160,6 @@
                 </div>
             </div>
         </div>
-
         <!-- NEW ROW -->
         <div class="row">
             <div class="col-sm-12">
@@ -249,7 +250,7 @@
                             <!-- <p class="text-muted m-b-20">Add<code>.table-bordered</code>for borders on all sides of the table and cells.</p> -->
                             <br>
                             <div class="table-responsive">
-                                <table class="table table-hover manage-u-table">
+                                <table class="table table-hover">
                                     <thead>
                                         <tr>
                                             <th>Mata Kuliah</th>
@@ -399,7 +400,7 @@
             <div class="col-sm-6">
                 <div class="white-box">
                     <h1 class="box-title" style="text-align: center;">Pengumuman</h1>
-                    <table data-height="279" data-mobile-responsive="true" class="table table-hover manage-u-table">
+                    <table data-height="279" data-mobile-responsive="true" class="table table-hover">
                         <thead>
                             <tr>
                                 <th class="col-sm-3">Tanggal</th>
@@ -533,6 +534,12 @@
     <?= $this->tag->javascriptInclude('js/waves.js') ?>
     <!-- Custom Theme JavaScript -->
     <?= $this->tag->javascriptInclude('js/custom.min.js') ?>
+    <!-- Footable -->
+    <?= $this->tag->javascriptInclude('plugins/bower_components/footable/js/footable.all.min.js') ?>
+    <?= $this->tag->javascriptInclude('plugins/bower_components/bootstrap-select/bootstrap-select.min.js') ?>
+    <!--FooTable init-->
+    <?= $this->tag->javascriptInclude('js/footable-init.js') ?>
+    <?= $this->tag->javascriptInclude('js/footable-pagination-example.js') ?>
     <!--Morris JavaScript -->
     <?= $this->tag->javascriptInclude('plugins/bower_components/raphael/raphael-min.js') ?>
     <?= $this->tag->javascriptInclude('plugins/bower_components/morrisjs/morris.js') ?>
@@ -559,7 +566,7 @@
     <?= $this->tag->javascriptInclude('plugins/bower_components/bootstrap-daterangepicker/daterangepicker.js') ?>
 
     <!--Style Switcher -->
-    <?= $this->tag->javascriptInclude('plugins/bower_components/styleswitcher/jQuery.style.switcher.js') ?>script>
+    <?= $this->tag->javascriptInclude('plugins/bower_components/styleswitcher/jQuery.style.switcher.js') ?>
 </body>
 
 </html>

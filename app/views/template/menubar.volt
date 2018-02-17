@@ -13,8 +13,11 @@
     {{stylesheet_link('bootstrap/dist/css/bootstrap.min.css')}}
     {{stylesheet_link('plugins/bower_components/bootstrap-table/dist/bootstrap-table.min.css')}}
     <!-- Morris CSS -->
-    {{stylesheet_link('plugins/bower_components/morrisjs/morris.css" rel="stylesheet')}}
+    {{stylesheet_link('plugins/bower_components/morrisjs/morris.css')}}
     {{stylesheet_link('//cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.css')}}
+    <!-- Footable CSS -->
+    {{stylesheet_link('plugins/bower_components/footable/css/footable.core.css')}}    
+    {{stylesheet_link('plugins/bower_components/bootstrap-select/bootstrap-select.min.css')}}
     <!-- Menu CSS -->
     {{stylesheet_link('plugins/bower_components/sidebar-nav/dist/sidebar-nav.min.css')}}
     <!-- Page plugins css -->
@@ -164,6 +167,12 @@
     {{javascript_include('js/waves.js')}}
     <!-- Custom Theme JavaScript -->
     {{javascript_include('js/custom.min.js')}}
+    <!-- Footable -->
+    {{javascript_include('plugins/bower_components/footable/js/footable.all.min.js')}}
+    {{javascript_include('plugins/bower_components/bootstrap-select/bootstrap-select.min.js')}}
+    <!--FooTable init-->
+    {{javascript_include('js/footable-init.js')}}
+    {{javascript_include('js/footable-pagination-example.js')}}
     <!--Morris JavaScript -->
     {{javascript_include('plugins/bower_components/raphael/raphael-min.js')}}
     {{javascript_include('plugins/bower_components/morrisjs/morris.js')}}
@@ -190,7 +199,7 @@
     {{javascript_include('plugins/bower_components/bootstrap-daterangepicker/daterangepicker.js')}}
 
     <!--Style Switcher -->
-    {{javascript_include('plugins/bower_components/styleswitcher/jQuery.style.switcher.js')}}script>
+    {{javascript_include('plugins/bower_components/styleswitcher/jQuery.style.switcher.js')}}
 </body>
 
 </html>

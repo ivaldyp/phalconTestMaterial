@@ -3,7 +3,6 @@
 
 <div id="page-wrapper">
     <div class="container-fluid">
-
         <!-- NEW ROW -->
         <div class="row">
             <div class="col-md-12">
@@ -12,7 +11,6 @@
                 </div>
             </div>
         </div>
-
         <!-- NEW ROW -->
         <div class="row">
             <div class="col-sm-12">
@@ -103,7 +101,7 @@
                             <!-- <p class="text-muted m-b-20">Add<code>.table-bordered</code>for borders on all sides of the table and cells.</p> -->
                             <br>
                             <div class="table-responsive">
-                                <table class="table table-hover manage-u-table">
+                                <table class="table table-hover">
                                     <thead>
                                         <tr>
                                             <th>Mata Kuliah</th>
@@ -253,7 +251,7 @@
             <div class="col-sm-6">
                 <div class="white-box">
                     <h1 class="box-title" style="text-align: center;">Pengumuman</h1>
-                    <table data-height="279" data-mobile-responsive="true" class="table table-hover manage-u-table">
+                    <table data-height="279" data-mobile-responsive="true" class="table table-hover">
                         <thead>
                             <tr>
                                 <th class="col-sm-3">Tanggal</th>

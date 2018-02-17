@@ -15,13 +15,19 @@ $(window).on('load', function() {
 
 	// Pagination
 	// -----------------------------------------------------------------
-	$('#demo-foo-pagination').footable();
+	$('# ').footable();
 	$('#demo-show-entries').change(function (e) {
 		e.preventDefault();
 		var pageSize = $(this).val();
 		$('#demo-foo-pagination').data('page-size', pageSize);
 		$('#demo-foo-pagination').trigger('footable_initialized');
 	});
+
+	// Pagination Example
+	// -----------------------------------------------------------------
+	$(document).ready(function() {
+    		$('#pagination-example').DataTable();
+	} );
 
 	// Filtering
 	// -----------------------------------------------------------------
