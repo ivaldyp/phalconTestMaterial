@@ -13,8 +13,11 @@
     <?= $this->tag->stylesheetLink('bootstrap/dist/css/bootstrap.min.css') ?>
     <?= $this->tag->stylesheetLink('plugins/bower_components/bootstrap-table/dist/bootstrap-table.min.css') ?>
     <!-- Morris CSS -->
-    <?= $this->tag->stylesheetLink('plugins/bower_components/morrisjs/morris.css" rel="stylesheet') ?>
+    <?= $this->tag->stylesheetLink('plugins/bower_components/morrisjs/morris.css') ?>
     <?= $this->tag->stylesheetLink('//cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.css') ?>
+    <!-- Footable CSS -->
+    <?= $this->tag->stylesheetLink('plugins/bower_components/footable/css/footable.core.css') ?>    
+    <?= $this->tag->stylesheetLink('plugins/bower_components/bootstrap-select/bootstrap-select.min.css') ?>
     <!-- Menu CSS -->
     <?= $this->tag->stylesheetLink('plugins/bower_components/sidebar-nav/dist/sidebar-nav.min.css') ?>
     <!-- Page plugins css -->
@@ -242,8 +245,8 @@
             <div class="col-sm-2"></div>
             <div class="col-sm-8">
                 <div class="panel panel-info">
-                        <div class="panel-heading" style="text-align: center;">FRS TELAH DISETUJUI</div>
-                    </div>
+                    <div class="panel-heading" style="text-align: center;">FRS TELAH DISETUJUI</div>
+                </div>
             </div>
             <div class="col-sm-2"></div>
         </div>
@@ -324,6 +327,12 @@
     <?= $this->tag->javascriptInclude('js/waves.js') ?>
     <!-- Custom Theme JavaScript -->
     <?= $this->tag->javascriptInclude('js/custom.min.js') ?>
+    <!-- Footable -->
+    <?= $this->tag->javascriptInclude('plugins/bower_components/footable/js/footable.all.min.js') ?>
+    <?= $this->tag->javascriptInclude('plugins/bower_components/bootstrap-select/bootstrap-select.min.js') ?>
+    <!--FooTable init-->
+    <?= $this->tag->javascriptInclude('js/footable-init.js') ?>
+    <?= $this->tag->javascriptInclude('js/footable-pagination-example.js') ?>
     <!--Morris JavaScript -->
     <?= $this->tag->javascriptInclude('plugins/bower_components/raphael/raphael-min.js') ?>
     <?= $this->tag->javascriptInclude('plugins/bower_components/morrisjs/morris.js') ?>
@@ -350,7 +359,7 @@
     <?= $this->tag->javascriptInclude('plugins/bower_components/bootstrap-daterangepicker/daterangepicker.js') ?>
 
     <!--Style Switcher -->
-    <?= $this->tag->javascriptInclude('plugins/bower_components/styleswitcher/jQuery.style.switcher.js') ?>script>
+    <?= $this->tag->javascriptInclude('plugins/bower_components/styleswitcher/jQuery.style.switcher.js') ?>
 </body>
 
 </html>

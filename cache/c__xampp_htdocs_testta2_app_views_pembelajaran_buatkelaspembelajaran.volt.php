@@ -154,7 +154,7 @@
     <div class="container-fluid">
         <div class="row bg-title">
             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                <h4 class="page-title">Historis Pembayaran Mahasiswa</h4> </div>
+                <h4 class="page-title">Buat Kelas Pembelajaran</h4> </div>
             <div class="col-lg-8 col-sm-8 col-md-8 col-xs-12"> 
                 <ol class="breadcrumb">
                     <li><a href="#">Dashboard</a></li>
@@ -166,67 +166,109 @@
         </div>
         <!-- /row -->
         <div class="row">
-            <div class="col-sm-2"></div>
-            <div class="col-sm-8">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-10">
                 <div class="white-box">
-                    <h3 class="box-title m-b-0">MAHASISWA : IVALDY - 5114100105</h3>
-                    <!-- <p class="text-muted m-b-30">Simple table example</p> -->
-                    <table data-toggle="table" data-mobile-responsive="true" class="table-striped table-hover table-bordered">
-                        <thead>
-                            <tr>
-                                <th>Tahun Semester</th>
-                                <th>Tanggal Bayar & Bank</th>
-                                <th>Total Bayar</th>
-                                <th>Flag</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr id="tr-id-1" class="tr-class-1">
-                                <td id="td-id-1" class="td-class-1"> GENAP 2017 </td>
-                                <td>2018-01-28 MANDIRI</td>
-                                <td>4000000</td>
-                                <td>1</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    <br>
-                    <table data-toggle="table" data-mobile-responsive="true" class="table-striped table-hover table-bordered">
-                        <thead>
-                            <tr>
-                                <th>Jenis Pembayaran</th>
-                                <th>Jumlah</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr id="tr-id-1" class="tr-class-1">
-                                <td>TAGIHAN SPP</td>
-                                <td>4000000</td>
-                            </tr>
-                            <tr id="tr-id-2" class="tr-class-2">
-                                <td>TUNGGAKAN WISUDA</td>
-                                <td>0</td>
-                            </tr>
-                            <tr id="tr-id-3" class="tr-class-3">
-                                <td>TAGIHAN PELAYARAN</td>
-                                <td>0</td>
-                            </tr>
-                            <tr id="tr-id-4" class="tr-class-4">
-                                <td>TUNGGAKAN PELAYARAN</td>
-                                <td>0</td>
-                            </tr>
-                            <tr id="tr-id-5" class="tr-class-5">
-                                <td>TAGIHAN SPI</td>
-                                <td>0</td>
-                            </tr>
-                            <tr id="tr-id-6" class="tr-class-6">
-                                <td>TAGIHAN IPITS</td>
-                                <td>0</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                	<form class="form-horizontal" role="form">
+                		<div class="form-group">
+                			<label class="col-sm-3 control-label">Program Studi</label>
+                            <label class="col-sm-3 control-label" style="right: 45px">51100 - Teknik Informatika</label>
+                		</div>
+                		<div class="form-group">
+                            <label class="col-sm-3 control-label">Tahun Kurikulum</label>
+                            <div class="col-sm-3">
+                                <select class="form-control">
+                                    <option>2016</option>
+                                    <option>2017</option>
+                                    <option>2018</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label">Periode</label>
+                            <div class="col-sm-3">
+                                <select class="form-control">
+                                    <option>2016</option>
+                                    <option>2017</option>
+                                    <option>2018</option>
+                                </select>
+                            </div>
+                            <div class="col-sm-3">
+                                <select class="form-control">
+                                    <option>Gasal</option>
+                                    <option>Genap</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label">Mata Kuliah</label>
+                            <div class="col-sm-6">
+                                <select class="form-control">
+                                    <option>Matkul 1</option>
+                                    <option>Matkul 2</option>
+                                    <option>Matkul 3</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label" for="kelas-SKS">Kredit (SKS)</label>
+                            <div class="col-sm-3">
+                                <input type="number" max="5" min="0" id="kelas-SKS" name="kelas-SKS" class="form-control" placeholder="...">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label">Kelas</label>
+                            <div class="col-sm-3">
+                                <select class="form-control">
+                                    <option>A</option>
+                                    <option>B</option>
+                                    <option>C</option>
+                                    <option>D</option>
+                                    <option>E</option>
+                                    <option>F</option>
+                                    <option>-</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label">Dosen Pengajar</label>
+                            <div class="col-sm-3">
+                                <select class="form-control">
+                                    <option>Dosen</option>
+                                    <option>Dosen</option>
+                                    <option>Dosen</option>
+                                    <option>Dosen</option>
+                                    <option>Dosen</option>
+                                    <option>Dosen</option>
+                                    <option>Dosen</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label" for="kelas-tampung">Daya Tampung</label>
+                            <div class="col-sm-3">
+                                <input type="number" max="50" min="0" id="kelas-tampung" name="kelas-tampung" class="form-control" placeholder="...">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label" for="kelas-tampung">Rencana TM</label>
+                            <div class="col-sm-3">
+                                <input type="number" max="20" min="0" id="kelas-tampung" name="kelas-tampung" class="form-control" placeholder="...">
+                            </div>
+                        </div>
+                        <div class="row">
+                        	<div class="col-sm-8"></div>
+	                        <div class="col-lg-2 col-sm-4 col-xs-12">
+	                            <button class="btn btn-block btn-default"><i class="fa fa-times"></i> Batal </button>
+	                        </div>
+	                        <div class="col-lg-2 col-sm-4 col-xs-12">
+	                            <button class="btn btn-block btn-info"><i class="fa fa-save"></i> Simpan </button>
+	                        </div>
+                        </div>
+                    </form>
                 </div>
             </div>
-            <div class="col-sm-2"></div>
+            <div class="col-sm-1"></div>
         </div>
         <!-- /.row -->
     </div>

@@ -22,7 +22,7 @@
                 <div class="white-box">
                     <form class="form-horizontal" role="form">
                         <div class="form-group">
-                            <label class="col-md-6">Kelas : Perangkat Lunak</label>
+                            <label class="col-md-6" style="top: 10px">Kelas : Perangkat Lunak</label>
                             <div class="col-md-6">
                                 <input type="date" id="tanggal" name="tanggal" class="form-control mydatepicker" placeholder="Tanggal"> 
                             </div>
