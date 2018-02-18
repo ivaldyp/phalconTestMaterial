@@ -64,7 +64,7 @@
                         <div class="form-group">
                             <label class="col-sm-3 control-label" for="kelas-SKS">Kredit (SKS)</label>
                             <div class="col-sm-3">
-                                <input type="number" max="5" min="0" id="kelas-SKS" name="kelas-SKS" class="form-control" placeholder="...">
+                                <input type="number" max="5" min="0" id="kelas-SKS" class="form-control" placeholder="...">
                             </div>
                         </div>
                         <div class="form-group">
@@ -98,13 +98,13 @@
                         <div class="form-group">
                             <label class="col-sm-3 control-label" for="kelas-tampung">Daya Tampung</label>
                             <div class="col-sm-3">
-                                <input type="number" max="50" min="0" id="kelas-tampung" name="kelas-tampung" class="form-control" placeholder="...">
+                                <input type="number" max="50" min="0" id="kelas-tampung" class="form-control" placeholder="...">
                             </div>
                         </div>
                         <div class="form-group">
                             <label class="col-sm-3 control-label" for="kelas-tampung">Rencana TM</label>
                             <div class="col-sm-3">
-                                <input type="number" max="20" min="0" id="kelas-tampung" name="kelas-tampung" class="form-control" placeholder="...">
+                                <input type="number" max="20" min="0" id="kelas-tampung" class="form-control" placeholder="...">
                             </div>
                         </div>
                         <div class="row">
@@ -113,7 +113,9 @@
 	                            <button class="btn btn-block btn-default"><i class="fa fa-times"></i> Batal </button>
 	                        </div>
 	                        <div class="col-lg-2 col-sm-4 col-xs-12">
-	                            <button class="btn btn-block btn-info"><i class="fa fa-save"></i> Simpan </button>
+	                            <a href="Pembelajaran/lihatKelasPembelajaran">
+	                                <button class="btn btn-block btn-info"><i class="fa fa-save"></i> Simpan </button>
+	                            </a>
 	                        </div>
                         </div>
                     </form>
