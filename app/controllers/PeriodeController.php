@@ -3,9 +3,14 @@
 class PeriodeController extends \Phalcon\Mvc\Controller
 {
 
-    public function kalenderAkademikAction()
+    public function kalenderAkademikFRSAction()
     {
-    	$this->view->pick("Periode/kalenderAkademik");
+    	$this->view->pick("Periode/kalenderAkademikFRS");
+    }
+
+    public function kalenderAkademikIPDAction()
+    {
+    	$this->view->pick("Periode/kalenderAkademikIPD");
     }
 
     public function dataSekarangAction()

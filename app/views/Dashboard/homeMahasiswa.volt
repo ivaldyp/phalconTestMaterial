@@ -224,17 +224,18 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="white-box" style="padding-bottom: 14px">
-                    <h1 class="box-title m-b-0" style="text-align: center;">Dosen Wali</h1>
+                <div class="white-box" style="padding-bottom: 15px">
+                    <h1 class="box-title m-b-0" style="text-align: center;">Profil</h1>
                     <div>
                         <div class="panel">
                             <div class="p-30">
                                 <div class="row">
                                     <div class="col-xs-4"><img src="../plugins/images/users/varun.jpg" alt="varun" class="img-circle img-responsive"></div>
                                     <div class="col-xs-8">
-                                        <h2 class="m-b-0">Nama Dosen</h2>
-                                        <h4 class="m-t-0">NIP Dosen Wali</h4>
-                                        <h4 class="m-t-0">Email Dosen</h4>
+                                        <h4 class="m-b-0 m-t-0"><b>Ivaldy Putra Lifiari</b></h4>
+                                        <h4 class="m-t-0">05111440000105</h4>
+                                        <h4 class="m-t-0">S1 Teknik Informatika</h4>
+                                        <h4 class="m-t-0 m-b-0">Reguler / SBMPTN</h4>
                                     </div>
                                 </div>
                             </div>
@@ -290,9 +291,6 @@
             <div class="col-sm-6">
                 <div class="white-box" style="padding-bottom: 43px">
                     <h1 class="box-title" style="text-align: center;">Chart IPS</h1>
-                    <!-- <ul class="list-inline text-right">
-                        <li><h5><i class="fa fa-circle" style="color: #00bfc7;"></i>iPhone</h5> </li>
-                    </ul> -->
                     <div id="myfirstchart"></div>
                 </div>
             </div>

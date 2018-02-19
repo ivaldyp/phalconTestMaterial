@@ -166,6 +166,7 @@
     <!--Wave Effects -->
     {{javascript_include('js/waves.js')}}
     <!-- Custom Theme JavaScript -->
+    {{javascript_include('js/cbpFWTabs.js')}}
     {{javascript_include('js/custom.min.js')}}
     <!-- Footable -->
     {{javascript_include('plugins/bower_components/footable/js/footable.all.min.js')}}
@@ -176,8 +177,7 @@
     <!--Morris JavaScript -->
     {{javascript_include('plugins/bower_components/raphael/raphael-min.js')}}
     {{javascript_include('plugins/bower_components/morrisjs/morris.js')}}
-    {{javascript_include('js/morris-data.js')}}
-    {{javascript_include('js/testmorris.js')}}
+    <!-- {{javascript_include('js/morris-data.js')}} -->
     {{javascript_include('//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js')}}
     {{javascript_include('//cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js')}}
     {{javascript_include('//cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.min.js')}}
@@ -200,6 +200,12 @@
 
     <!--Style Switcher -->
     {{javascript_include('plugins/bower_components/styleswitcher/jQuery.style.switcher.js')}}
+
+    <!-- MADE BY ME -->
+    <!-- tabs di IPD/buatKuisionerIPD -->
+    {{javascript_include('js/sttabs.js')}}
+    <!-- tabel chart IPS Dashboard/homeMahasiswa -->
+    {{javascript_include('js/testmorris.js')}}
 </body>
 
 </html>
