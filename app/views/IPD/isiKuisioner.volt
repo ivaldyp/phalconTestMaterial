@@ -1,4 +1,4 @@
-{% extends 'template/menubar.volt' %}
+{% extends 'template/menubarMahasiswa.volt' %}
 {% block content %}
 
 <div id="page-wrapper">

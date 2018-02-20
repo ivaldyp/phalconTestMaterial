@@ -1,4 +1,4 @@
-{% extends 'template/menubar.volt' %}
+{% extends 'template/menubarMahasiswa.volt' %}
 {% block content %}
 
 <div id="page-wrapper">
@@ -95,7 +95,7 @@
         <div class="row">
             <div class="col-sm-2"></div>
             <div class="col-sm-8">
-                <div class="panel panel-info">
+                <div class="panel panel-success">
                     <div class="panel-heading" style="text-align: center;">FRS TELAH DISETUJUI</div>
                 </div>
             </div>
