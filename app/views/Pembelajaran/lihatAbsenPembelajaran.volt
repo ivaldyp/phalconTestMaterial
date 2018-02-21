@@ -355,7 +355,7 @@
                             <button class="btn btn-block btn-default"><i class="fa fa-times"></i> Batal </button>
                         </div>
                         <div class="col-lg-2 col-sm-4 col-xs-12">
-                            <a href="lihatKelasPembelajaran">
+                            <a href="{{ url('Pembelajaran/lihatKelasPembelajaran') }}">
                                 <button class="btn btn-block btn-info"><i class="fa fa-save"></i> Simpan </button>
                             </a>
                         </div>

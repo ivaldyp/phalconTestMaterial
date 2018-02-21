@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" type="image/png" sizes="16x16" href="../plugins/images/favicon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../plugins/images/logo-its-biru.png">
     <title>Ample Admin Template - The Ultimate Multipurpose admin template</title>
     <!-- Bootstrap Core CSS -->
     {{stylesheet_link('bootstrap/dist/css/bootstrap.min.css')}}
@@ -33,8 +33,10 @@
     {{stylesheet_link('css/animate.css')}}
     <!-- custom CSS -->
     {{stylesheet_link('css/style.css')}}
+    {{stylesheet_link('css/testStyle.css')}}
     <!-- color CSS -->
-    {{stylesheet_link('css/colors/green.css')}}
+    {{stylesheet_link('css/colors/greenCopy.css')}}
+    {{stylesheet_link('plugins/bower_components/toast-master/css/jquery.toast.css')}}
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -63,9 +65,11 @@
             <div class="navbar-header">
                 <div class="top-left-part">
                     <!-- Logo -->
-                    <a class="logo" href="index.html">
+                    <a class="logo" href="{{ url('Dashboard/homeMahasiswa') }}">
                         <!-- Logo icon image, you can use font-icon also -->
-                        <!--This is dark logo icon--></a>
+                        <!--This is dark logo icon-->
+                        <img src="../plugins/images/logo-its.png" width="80" height="50">        
+                    </a>
                 </div>
                 <!-- /Logo -->
                 <!-- Search input and Toggle icon -->
@@ -96,7 +100,7 @@
         <div class="navbar-default sidebar" role="navigation">
             <div class="sidebar-nav slimscrollsidebar">
                 <div class="sidebar-head">
-                    <h3><span class="fa-fw open-close"><i class="ti-menu hidden-xs"></i><i class="ti-close visible-xs"></i></span> <span class="hide-menu">Navigation</span></h3> </div>
+                    <h3><span class="fa-fw open-close"><i class="ti-menu hidden-xs"></i><i class="ti-close visible-xs"></i></span> <span class="hide-menu">SI Akademik</span></h3> </div>
                 <ul class="nav" id="side-menu">
                     <li class="user-pro">
                         <a href="#" class="waves-effect" style="display: inline-block;"><img src="../plugins/images/users/varun.jpg" alt="user-img" class="img-circle"> <span class="hide-menu">Nama Mahasiswa</span><span class="hide-menu" style="display: inline-block;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NRP Mahasiswa</span>
@@ -104,40 +108,61 @@
                         <!-- <div style="display: inline-block"><span class="hide-menu">Nama Mahasiswa</span></div>
                         <div style="display: inline-block"><span class="hide-menu">NRP Mahasiswa</span></div> -->
                     </li>
-                    <li> <a href="Dashboard.html" class="waves-effect"><i class="mdi mdi-view-dashboard fa-fw" data-icon="v"></i> <span class="hide-menu">DASHBOARD<span></span></span></a>
+                    <li> <a href="{{url('Dashboard/homeMahasiswa')}}" class="waves-effect"><i class="mdi mdi-home fa-fw" data-icon="v"></i> <span class="hide-menu">BERANDA<span></span></span></a>
                     </li>
-                    <li> <a href="#" class="waves-effect"><i class="mdi mdi-book-open-variant fa-fw"></i> <span class="hide-menu">AKADEMIK<span class="fa arrow"></span></span></a>
+                    <li> <a href="#" class="waves-effect"><i class="mdi mdi-account fa-fw" data-icon="v"></i><span class="hide-menu">PROFIL<span class="fa arrow"></span></span></a>
                         <ul class="nav nav-second-level">
-                            <li><a href="Kurikulum.html"><i data-icon="&#xe026;" class="linea-icon linea-basic fa-fw"></i> <span class="hide-menu">KURIKULUM</span></a></li>
-                            <li><a href="Prasyarat.html"><i data-icon="&#xe025;" class="linea-icon linea-basic fa-fw"></i> <span class="hide-menu">PRASYARAT MATA KULIAH</span></a></li>
-                            <li><a href="Perkuliahan.html"><i class="ti-layout-menu fa-fw"></i> <span class="hide-menu">PERKULIAHAN MAHASISWA</span></a></li>
+                            <li><a href="Kurikulum.html"><i data-icon="&#xe026;" class="linea-icon linea-basic fa-fw"></i> <span class="hide-menu">DATA PRIBADI</span></a></li>
+                            <li><a href="Prasyarat.html"><i data-icon="&#xe025;" class="linea-icon linea-basic fa-fw"></i> <span class="hide-menu">DATA AKADEMIK</span></a></li>
+                            <li><a href="Perkuliahan.html"><i class="ti-layout-menu fa-fw"></i> <span class="hide-menu">DATA PEKERJAAN</span></a></li>
+                            <li><a href="Kurikulum.html"><i data-icon="&#xe026;" class="linea-icon linea-basic fa-fw"></i> <span class="hide-menu">DATA ORTU</span></a></li>
+                            <li><a href="Prasyarat.html"><i data-icon="&#xe025;" class="linea-icon linea-basic fa-fw"></i> <span class="hide-menu">RIWAYAT KEAKTIFAN</span></a></li>
                         </ul>
                     </li>
-                    <li> <a href="#" class="waves-effect"><i class="mdi mdi-archive fa-fw"></i> <span class="hide-menu">LAPORAN<span class="fa arrow"></span></span></a>
+                    <li> <a href="#" class="waves-effect"><i class="mdi mdi-book-open-page-variant fa-fw"></i> <span class="hide-menu">KURIKULUM<span class="fa arrow"></span></span></a>
                         <ul class="nav nav-second-level">
-                            <li><a href="starter-page.html"><i class="ti-layout-width-default fa-fw"></i> <span class="hide-menu">SKEM</span></a></li>
-                            <li><a href="blank.html"><i class="ti-layout-sidebar-left fa-fw"></i> <span class="hide-menu">SKPI</span></a></li>
-                            <li><a href="lightbox.html"><i class="fa-fw">L</i> <span class="hide-menu">SPP</span></a></li>
-                            <li><a href="treeview.html"><i class="fa-fw">T</i> <span class="hide-menu">REKAPITULASI EKIVALENSI</span></a></li>
+                            <li><a href="starter-page.html"><i class="ti-layout-width-default fa-fw"></i> <span class="hide-menu">DATA KURIKULUM</span></a></li>
+                            <li><a href="blank.html"><i class="ti-layout-sidebar-left fa-fw"></i> <span class="hide-menu">PRASYARAT MATA KULIAH</span></a></li>
                         </ul>
                     </li>
-                    <li><a href="#" class="waves-effect"><i class="mdi mdi-settings fa-fw"></i> <span class="hide-menu">PROSES<span class="fa arrow"></span></span></a>
+                    <li><a href="#" class="waves-effect"><i class="mdi mdi-clipboard-text fa-fw"></i><span class="hide-menu">FRS<span class="fa arrow"></span></span></a>
                         <ul class="nav nav-second-level">
-                            <li><a href="chat.html"><i class="ti-comments-smiley fa-fw"></i><span class="hide-menu">ISI SKEM</span></a></li>
-                            <li><a href="chat.html"><i class="ti-comments-smiley fa-fw"></i><span class="hide-menu">ISI SKPI</span></a></li>
-                            <li><a href="chat.html"><i class="ti-comments-smiley fa-fw"></i><span class="hide-menu">UPDATE DATA WISUDA</span></a></li>
-                            <li><a href="chat.html"><i class="ti-comments-smiley fa-fw"></i><span class="hide-menu">FRS</span></a></li>
-                            <li><a href="chat.html"><i class="ti-comments-smiley fa-fw"></i><span class="hide-menu">ISI IPD</span></a></li>
+                            <li><a href="chat.html"><i class="ti-comments-smiley fa-fw"></i><span class="hide-menu">PENGISIAN FRS</span></a></li>
+                            <li><a href="chat.html"><i class="ti-comments-smiley fa-fw"></i><span class="hide-menu">JADWAL KULIAH</span></a></li>
                         </ul>
                     </li>
-                    <li><a href="#" class="waves-effect"><i class="mdi mdi-format-list-numbers fa-fw"></i> <span class="hide-menu">NILAI<span class="fa arrow"></span></span></a>
+                    <li><a href="#" class="waves-effect"><i class="mdi mdi-format-list-numbers fa-fw"></i> <span class="hide-menu">KUESIONER<span class="fa arrow"></span></span></a>
                         <ul class="nav nav-second-level">
+                            <li><a href="chat.html"><i class="ti-comments-smiley fa-fw"></i><span class="hide-menu">KUESIONER MATA KULIAH</span></a></li>
+                            <li><a href="chat.html"><i class="ti-comments-smiley fa-fw"></i><span class="hide-menu">KUESIONER DOSEN</span></a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#" class="waves-effect"><i class="mdi mdi-checkbox-multiple-marked-outline fa-fw"></i> <span class="hide-menu">NILAI<span class="fa arrow"></span></span></a>
+                        <ul class="nav nav-second-level">
+                            <li><a href="chat.html"><i class="ti-comments-smiley fa-fw"></i><span class="hide-menu">NILAI KULIAH PER SEMESTER</span></a></li>
+                            <li><a href="chat.html"><i class="ti-comments-smiley fa-fw"></i><span class="hide-menu">RANGKING INDEKS PRESTASI</span></a></li>
                             <li><a href="chat.html"><i class="ti-comments-smiley fa-fw"></i><span class="hide-menu">TRANSKRIP</span></a></li>
-                            <li><a href="chat.html"><i class="ti-comments-smiley fa-fw"></i><span class="hide-menu">RANKING IPK</span></a></li>
-                            <li><a href="chat.html"><i class="ti-comments-smiley fa-fw"></i><span class="hide-menu">RANKING IPS</span></a></li>
-                            <li><a href="chat.html"><i class="ti-comments-smiley fa-fw"></i><span class="hide-menu">NILAI PER MAHASISWA</span></a></li>
-                            <li><a href="chat.html"><i class="ti-comments-smiley fa-fw"></i><span class="hide-menu">NILAI PER SEMESTER</span></a></li>
                         </ul>
+                    </li>
+                    <li><a href="#" class="waves-effect"><i class="mdi mdi-coin fa-fw"></i> <span class="hide-menu">BIAYA PENDIDIKAN<span class="fa arrow"></span></span></a>
+                        <ul class="nav nav-second-level">
+                            <li><a href="chat.html"><i class="ti-comments-smiley fa-fw"></i><span class="hide-menu">RIWAYAT PEMBAYARAN</span></a></li>
+                            <li><a href="chat.html"><i class="ti-comments-smiley fa-fw"></i><span class="hide-menu">TAGIHAN</span></a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#" class="waves-effect"><i class="mdi mdi-file-check fa-fw"></i><span class="hide-menu">SKEM<span class="fa arrow"></span></span></a>
+                        <ul class="nav nav-second-level">
+                            <li><a href="chat.html"><i class="ti-comments-smiley fa-fw"></i><span class="hide-menu">PENGISIAN</span></a></li>
+                            <li><a href="chat.html"><i class="ti-comments-smiley fa-fw"></i><span class="hide-menu">LAPORAN</span></a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#" class="waves-effect"><i class="mdi mdi-file fa-fw"></i> <span class="hide-menu">SKPI<span class="fa arrow"></span></span></a>
+                        <ul class="nav nav-second-level">
+                            <li><a href="chat.html"><i class="ti-comments-smiley fa-fw"></i><span class="hide-menu">PENGISIAN</span></a></li>
+                            <li><a href="chat.html"><i class="ti-comments-smiley fa-fw"></i><span class="hide-menu">PRATINJAU</span></a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#" class="waves-effect"><i class="mdi mdi-format-list-numbers fa-fw"></i> <span class="hide-menu">WISUDA<span class="fa arrow"></span></span></a>
                     </li>
                 </ul>
             </div>
@@ -178,9 +203,6 @@
     {{javascript_include('plugins/bower_components/raphael/raphael-min.js')}}
     {{javascript_include('plugins/bower_components/morrisjs/morris.js')}}
     <!-- {{javascript_include('js/morris-data.js')}} -->
-    {{javascript_include('//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js')}}
-    {{javascript_include('//cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js')}}
-    {{javascript_include('//cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.min.js')}}
     <!-- Table JavaScript -->
     {{javascript_include('plugins/bower_components/bootstrap-table/dist/bootstrap-table.min.js')}}
     {{javascript_include('plugins/bower_components/bootstrap-table/dist/bootstrap-table.ints.js')}}
@@ -206,6 +228,8 @@
     {{javascript_include('js/sttabs.js')}}
     <!-- tabel chart IPS Dashboard/homeMahasiswa -->
     {{javascript_include('js/testmorris.js')}}
+    <!-- slimscroll -->
+    {{javascript_include('js/testslimscroll.js')}}
 </body>
 
 </html>
