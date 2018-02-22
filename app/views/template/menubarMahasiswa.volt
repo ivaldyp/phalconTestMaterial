@@ -14,7 +14,7 @@
     {{stylesheet_link('plugins/bower_components/bootstrap-table/dist/bootstrap-table.min.css')}}
     <!-- Morris CSS -->
     {{stylesheet_link('plugins/bower_components/morrisjs/morris.css')}}
-    {{stylesheet_link('//cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.css')}}
+    <!-- {{stylesheet_link('plugins/bower_components/morrisjs/morris.css')}} -->
     <!-- Footable CSS -->
     {{stylesheet_link('plugins/bower_components/footable/css/footable.core.css')}}    
     {{stylesheet_link('plugins/bower_components/bootstrap-select/bootstrap-select.min.css')}}
@@ -103,70 +103,70 @@
                     <h3><span class="fa-fw open-close"><i class="ti-menu hidden-xs"></i><i class="ti-close visible-xs"></i></span> <span class="hide-menu">SI Akademik</span></h3> </div>
                 <ul class="nav" id="side-menu">
                     <li class="user-pro">
-                        <a href="#" class="waves-effect" style="display: inline-block;"><img src="../plugins/images/users/varun.jpg" alt="user-img" class="img-circle"> <span class="hide-menu">Nama Mahasiswa</span><span class="hide-menu" style="display: inline-block;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NRP Mahasiswa</span>
+                        <a href="#" class="waves-effect" style="display: inline-block;"><img src="../plugins/images/users/varun.jpg" alt="user-img" class="img-circle"> <span class="hide-menu">Ivaldy Putra Lifiari</span><span class="hide-menu" style="display: inline-block;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;05111440000105</span>
                         </a>
                         <!-- <div style="display: inline-block"><span class="hide-menu">Nama Mahasiswa</span></div>
                         <div style="display: inline-block"><span class="hide-menu">NRP Mahasiswa</span></div> -->
                     </li>
-                    <li> <a href="{{url('Dashboard/homeMahasiswa')}}" class="waves-effect"><i class="mdi mdi-home fa-fw" data-icon="v"></i> <span class="hide-menu">BERANDA<span></span></span></a>
-                    </li>
+                     <li> <a href="{{ url('Dashboard/homeMahasiswa') }}" class="waves-effect"><i class="mdi mdi-home fa-fw" data-icon="v"></i><span class="hide-menu">Beranda</span></a></li>
                     <li> <a href="#" class="waves-effect"><i class="mdi mdi-account fa-fw" data-icon="v"></i><span class="hide-menu">PROFIL<span class="fa arrow"></span></span></a>
                         <ul class="nav nav-second-level">
-                            <li><a href="Kurikulum.html"><i data-icon="&#xe026;" class="linea-icon linea-basic fa-fw"></i> <span class="hide-menu">DATA PRIBADI</span></a></li>
-                            <li><a href="Prasyarat.html"><i data-icon="&#xe025;" class="linea-icon linea-basic fa-fw"></i> <span class="hide-menu">DATA AKADEMIK</span></a></li>
-                            <li><a href="Perkuliahan.html"><i class="ti-layout-menu fa-fw"></i> <span class="hide-menu">DATA PEKERJAAN</span></a></li>
-                            <li><a href="Kurikulum.html"><i data-icon="&#xe026;" class="linea-icon linea-basic fa-fw"></i> <span class="hide-menu">DATA ORTU</span></a></li>
-                            <li><a href="Prasyarat.html"><i data-icon="&#xe025;" class="linea-icon linea-basic fa-fw"></i> <span class="hide-menu">RIWAYAT KEAKTIFAN</span></a></li>
+                            <li><a href="Kurikulum.html"><i class="mdi mdi-numeric-1-box-multiple-outline fa-fw"></i> <span class="hide-menu">DATA PRIBADI</span></a></li>
+                            <li><a href="Prasyarat.html"><i class="mdi mdi-numeric-2-box-multiple-outline fa-fw"></i> <span class="hide-menu">DATA AKADEMIK</span></a></li>
+                            <li><a href="Perkuliahan.html"><i class="mdi mdi-numeric-3-box-multiple-outline fa-fw"></i> <span class="hide-menu">DATA PEKERJAAN</span></a></li>
+                            <li><a href="Kurikulum.html"><i class="mdi mdi-numeric-4-box-multiple-outline fa-fw"></i> <span class="hide-menu">DATA ORTU</span></a></li>
+                            <li><a href="Prasyarat.html"><i class="mdi mdi-numeric-5-box-multiple-outline fa-fw"></i> <span class="hide-menu">RIWAYAT KEAKTIFAN</span></a></li>
                         </ul>
                     </li>
                     <li> <a href="#" class="waves-effect"><i class="mdi mdi-book-open-page-variant fa-fw"></i> <span class="hide-menu">KURIKULUM<span class="fa arrow"></span></span></a>
                         <ul class="nav nav-second-level">
-                            <li><a href="starter-page.html"><i class="ti-layout-width-default fa-fw"></i> <span class="hide-menu">DATA KURIKULUM</span></a></li>
-                            <li><a href="blank.html"><i class="ti-layout-sidebar-left fa-fw"></i> <span class="hide-menu">PRASYARAT MATA KULIAH</span></a></li>
+                            <li><a href="starter-page.html"><i class="mdi mdi-numeric-1-box-multiple-outline fa-fw"></i> <span class="hide-menu">DATA KURIKULUM</span></a></li>
+                            <li><a href="blank.html"><i class="mdi mdi-numeric-2-box-multiple-outline fa-fw"></i> <span class="hide-menu">PRASYARAT MATA KULIAH</span></a></li>
                         </ul>
                     </li>
                     <li><a href="#" class="waves-effect"><i class="mdi mdi-clipboard-text fa-fw"></i><span class="hide-menu">FRS<span class="fa arrow"></span></span></a>
                         <ul class="nav nav-second-level">
-                            <li><a href="chat.html"><i class="ti-comments-smiley fa-fw"></i><span class="hide-menu">PENGISIAN FRS</span></a></li>
-                            <li><a href="chat.html"><i class="ti-comments-smiley fa-fw"></i><span class="hide-menu">JADWAL KULIAH</span></a></li>
+                            <li><a href="chat.html"><i class="mdi mdi-numeric-1-box-multiple-outline fa-fw"></i><span class="hide-menu">PENGISIAN FRS</span></a></li>
+                            <li><a href="chat.html"><i class="mdi mdi-numeric-2-box-multiple-outline fa-fw"></i><span class="hide-menu">JADWAL KULIAH</span></a></li>
                         </ul>
                     </li>
                     <li><a href="#" class="waves-effect"><i class="mdi mdi-format-list-numbers fa-fw"></i> <span class="hide-menu">KUESIONER<span class="fa arrow"></span></span></a>
                         <ul class="nav nav-second-level">
-                            <li><a href="chat.html"><i class="ti-comments-smiley fa-fw"></i><span class="hide-menu">KUESIONER MATA KULIAH</span></a></li>
-                            <li><a href="chat.html"><i class="ti-comments-smiley fa-fw"></i><span class="hide-menu">KUESIONER DOSEN</span></a></li>
+                            <li><a href="chat.html"><i class="mdi mdi-numeric-1-box-multiple-outline fa-fw"></i><span class="hide-menu">KUESIONER MATA KULIAH</span></a></li>
+                            <li><a href="chat.html"><i class="mdi mdi-numeric-2-box-multiple-outline fa-fw"></i><span class="hide-menu">KUESIONER DOSEN</span></a></li>
                         </ul>
                     </li>
                     <li><a href="#" class="waves-effect"><i class="mdi mdi-checkbox-multiple-marked-outline fa-fw"></i> <span class="hide-menu">NILAI<span class="fa arrow"></span></span></a>
                         <ul class="nav nav-second-level">
-                            <li><a href="chat.html"><i class="ti-comments-smiley fa-fw"></i><span class="hide-menu">NILAI KULIAH PER SEMESTER</span></a></li>
-                            <li><a href="chat.html"><i class="ti-comments-smiley fa-fw"></i><span class="hide-menu">RANGKING INDEKS PRESTASI</span></a></li>
-                            <li><a href="chat.html"><i class="ti-comments-smiley fa-fw"></i><span class="hide-menu">TRANSKRIP</span></a></li>
+                            <li><a href="chat.html"><i class="mdi mdi-numeric-1-box-multiple-outline fa-fw"></i><span class="hide-menu">NILAI KULIAH PER SEMESTER</span></a></li>
+                            <li><a href="chat.html"><i class="mdi mdi-numeric-2-box-multiple-outline fa-fw"></i><span class="hide-menu">RANGKING INDEKS PRESTASI</span></a></li>
+                            <li><a href="chat.html"><i class="mdi mdi-numeric-3-box-multiple-outline fa-fw"></i><span class="hide-menu">TRANSKRIP</span></a></li>
                         </ul>
                     </li>
                     <li><a href="#" class="waves-effect"><i class="mdi mdi-coin fa-fw"></i> <span class="hide-menu">BIAYA PENDIDIKAN<span class="fa arrow"></span></span></a>
                         <ul class="nav nav-second-level">
-                            <li><a href="chat.html"><i class="ti-comments-smiley fa-fw"></i><span class="hide-menu">RIWAYAT PEMBAYARAN</span></a></li>
-                            <li><a href="chat.html"><i class="ti-comments-smiley fa-fw"></i><span class="hide-menu">TAGIHAN</span></a></li>
+                            <li><a href="chat.html"><i class="mdi mdi-numeric-1-box-multiple-outline fa-fw"></i><span class="hide-menu">RIWAYAT PEMBAYARAN</span></a></li>
+                            <li><a href="chat.html"><i class="mdi mdi-numeric-2-box-multiple-outline fa-fw"></i><span class="hide-menu">TAGIHAN</span></a></li>
                         </ul>
                     </li>
                     <li><a href="#" class="waves-effect"><i class="mdi mdi-file-check fa-fw"></i><span class="hide-menu">SKEM<span class="fa arrow"></span></span></a>
                         <ul class="nav nav-second-level">
-                            <li><a href="chat.html"><i class="ti-comments-smiley fa-fw"></i><span class="hide-menu">PENGISIAN</span></a></li>
-                            <li><a href="chat.html"><i class="ti-comments-smiley fa-fw"></i><span class="hide-menu">LAPORAN</span></a></li>
+                            <li><a href="chat.html"><i class="mdi mdi-numeric-1-box-multiple-outline fa-fw"></i><span class="hide-menu">PENGISIAN</span></a></li>
+                            <li><a href="chat.html"><i class="mdi mdi-numeric-2-box-multiple-outline fa-fw"></i><span class="hide-menu">LAPORAN</span></a></li>
                         </ul>
                     </li>
                     <li><a href="#" class="waves-effect"><i class="mdi mdi-file fa-fw"></i> <span class="hide-menu">SKPI<span class="fa arrow"></span></span></a>
                         <ul class="nav nav-second-level">
-                            <li><a href="chat.html"><i class="ti-comments-smiley fa-fw"></i><span class="hide-menu">PENGISIAN</span></a></li>
-                            <li><a href="chat.html"><i class="ti-comments-smiley fa-fw"></i><span class="hide-menu">PRATINJAU</span></a></li>
+                            <li><a href="chat.html"><i class="mdi mdi-numeric-1-box-multiple-outline fa-fw"></i><span class="hide-menu">PENGISIAN</span></a></li>
+                            <li><a href="chat.html"><i class="mdi mdi-numeric-2-box-multiple-outline fa-fw"></i><span class="hide-menu">PRATINJAU</span></a></li>
                         </ul>
                     </li>
-                    <li><a href="#" class="waves-effect"><i class="mdi mdi-format-list-numbers fa-fw"></i> <span class="hide-menu">WISUDA<span class="fa arrow"></span></span></a>
+                    <li><a href="#" class="waves-effect"><i class="mdi mdi-school fa-fw"></i> <span class="hide-menu">WISUDA<span class="fa arrow"></span></span></a>
                     </li>
                 </ul>
             </div>
         </div>
+        
         <!-- ============================================================== -->
         <!-- End Left Sidebar -->
         <!-- ============================================================== -->
@@ -202,7 +202,7 @@
     <!--Morris JavaScript -->
     {{javascript_include('plugins/bower_components/raphael/raphael-min.js')}}
     {{javascript_include('plugins/bower_components/morrisjs/morris.js')}}
-    <!-- {{javascript_include('js/morris-data.js')}} -->
+    {{javascript_include('js/morris-data.js')}}
     <!-- Table JavaScript -->
     {{javascript_include('plugins/bower_components/bootstrap-table/dist/bootstrap-table.min.js')}}
     {{javascript_include('plugins/bower_components/bootstrap-table/dist/bootstrap-table.ints.js')}}
@@ -214,12 +214,6 @@
     {{javascript_include('plugins/bower_components/jquery-asColorPicker-master/libs/jquery-asColor.js')}}
     {{javascript_include('plugins/bower_components/jquery-asColorPicker-master/libs/jquery-asGradient.js')}}
     {{javascript_include('plugins/bower_components/jquery-asColorPicker-master/dist/jquery-asColorPicker.min.js')}}
-    <!-- Date Picker Plugin JavaScript -->
-    {{javascript_include('plugins/bower_components/bootstrap-datepicker/bootstrap-datepicker.min.js')}}
-    <!-- Date range Plugin JavaScript -->
-    {{javascript_include('plugins/bower_components/timepicker/bootstrap-timepicker.min.js')}}
-    {{javascript_include('plugins/bower_components/bootstrap-daterangepicker/daterangepicker.js')}}
-
     <!--Style Switcher -->
     {{javascript_include('plugins/bower_components/styleswitcher/jQuery.style.switcher.js')}}
 
@@ -227,9 +221,10 @@
     <!-- tabs di IPD/buatKuisionerIPD -->
     {{javascript_include('js/sttabs.js')}}
     <!-- tabel chart IPS Dashboard/homeMahasiswa -->
-    {{javascript_include('js/testmorris.js')}}
+    {{javascript_include('js/testmorrisb.js')}}
     <!-- slimscroll -->
     {{javascript_include('js/testslimscroll.js')}}
+    
 </body>
 
 </html>
