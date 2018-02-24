@@ -28,7 +28,7 @@
                                 <th>Tahun Semester</th>
                                 <th>Tanggal Bayar & Bank</th>
                                 <th>Total Bayar</th>
-                                <th>Flag</th>
+                                <th>Status</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -36,7 +36,7 @@
                                 <td id="td-id-1" class="td-class-1"> GENAP 2017 </td>
                                 <td>2018-01-28 MANDIRI</td>
                                 <td>4000000</td>
-                                <td>1</td>
+                                <td>Sudah Dibayar</td>
                             </tr>
                         </tbody>
                     </table>

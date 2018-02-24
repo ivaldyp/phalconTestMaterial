@@ -8,9 +8,8 @@
                 <h4 class="page-title">Formulir Rencana Studi</h4> </div>
             <div class="col-lg-8 col-sm-8 col-md-8 col-xs-12"> 
                 <ol class="breadcrumb">
-                    <li><a href="#">Dashboard</a></li>
-                    <li><a href="LaporanKeuangan/index2">Table</a></li>
-                    <li class="active">Bootstrap Table</li>
+                    <li>FRS</li>
+                    <li><a href="{{ url('FRS/buatFRS') }}">Buat FRS</a></li>
                 </ol>
             </div>
             <!-- /.col-lg-12 -->
@@ -26,9 +25,9 @@
                         <h3 class="box-title m-b-0">IPK</h3>
                     </div>
                     <div class="col-sm-4">
-                        <h3 class="box-title m-b-0">: 5114100105</h3>
+                        <h3 class="box-title m-b-0">: 05111440000105</h3>
                         <h3 class="box-title m-b-0">: Ivaldy Putra</h3>
-                        <h3 class="box-title m-b-0">: 4.56</h3>
+                        <h3 class="box-title m-b-0">: 3.56</h3>
                     </div>
                     <div class="col-sm-2">
                         <h3 class="box-title m-b-0">Periode</h3>
@@ -95,8 +94,8 @@
         <div class="row">
             <div class="col-sm-2"></div>
             <div class="col-sm-8">
-                <div class="panel panel-success">
-                    <div class="panel-heading" style="text-align: center;">FRS TELAH DISETUJUI</div>
+                <div class="panel panel-danger">
+                    <div class="panel-heading" style="text-align: center;">FRS BELUM DISETUJUI</div>
                 </div>
             </div>
             <div class="col-sm-2"></div>
@@ -106,50 +105,50 @@
             <div class="col-sm-8">
                 <div class="white-box">
                     <form class="form-horizontal">
-                        <div class="form-group">
-                            <label class="col-sm-2">Kelas Jurusan</label>
+                        <div class="form-group m-b-0">
+                            <label class="col-sm-2 m-t-10">Kelas Jurusan</label>
                             <div class="col-sm-8">
                                 <select class="form-control">
-                                    <option>Dosen 1</option>
-                                    <option>Dosen 2</option>
-                                    <option>Dosen 3</option>
-                                    <option>Dosen 4</option>
-                                    <option>Dosen 5</option>
+                                    <option>Kode MK | Nama MK | Kelas MK | Total Peserta</option>
+                                    <option>Kode MK | Nama MK | Kelas MK | Total Peserta</option>
+                                    <option>Kode MK | Nama MK | Kelas MK | Total Peserta</option>
+                                    <option>Kode MK | Nama MK | Kelas MK | Total Peserta</option>
+                                    <option>Kode MK | Nama MK | Kelas MK | Total Peserta</option>
                                 </select>
                             </div>
-                            <button type="button" class="btn col-sm-2 waves-effect waves-light btn-info">Tampil</button>
+                            <button type="button" class="btn col-sm-2 waves-effect waves-light btn-info">Pilih</button>
                         </div>
                     </form>
-                    <form class="form-horizontal">
-                        <div class="form-group">
+                    <!-- <form class="form-horizontal">
+                        <div class="form-group m-b-0">
                             <label class="col-sm-2">Kelas MKIJ</label>
                             <div class="col-sm-8">
                                 <select class="form-control">
-                                    <option>NRP1 - Mahasiswa</option>
-                                    <option>NRP1 - Mahasiswa</option>
-                                    <option>NRP3 - Mahasiswa</option>
-                                    <option>NRP4 - Mahasiswa</option>
-                                    <option>NRP5 - Mahasiswa</option>
+                                    <option>Kode MK | Nama MK | Kelas MK | Total Peserta</option>
+                                    <option>Kode MK | Nama MK | Kelas MK | Total Peserta</option>
+                                    <option>Kode MK | Nama MK | Kelas MK | Total Peserta</option>
+                                    <option>Kode MK | Nama MK | Kelas MK | Total Peserta</option>
+                                    <option>Kode MK | Nama MK | Kelas MK | Total Peserta</option>
                                 </select>
                             </div>
                             <button type="button" class="btn col-sm-2 waves-effect waves-light btn-info">Pilih</button>
                         </div>
-                    </form>
-                    <form class="form-horizontal">
-                        <div class="form-group">
+                    </form> -->
+                    <!-- <form class="form-horizontal">
+                        <div class="form-group m-b-0">
                             <label class="col-sm-2">Kelas UPMB</label>
                             <div class="col-sm-8">
                                 <select class="form-control">
-                                    <option>NRP1 - Mahasiswa</option>
-                                    <option>NRP1 - Mahasiswa</option>
-                                    <option>NRP3 - Mahasiswa</option>
-                                    <option>NRP4 - Mahasiswa</option>
-                                    <option>NRP5 - Mahasiswa</option>
+                                    <option>Kode MK | Nama MK | Kelas MK | Total Peserta</option>
+                                    <option>Kode MK | Nama MK | Kelas MK | Total Peserta</option>
+                                    <option>Kode MK | Nama MK | Kelas MK | Total Peserta</option>
+                                    <option>Kode MK | Nama MK | Kelas MK | Total Peserta</option>
+                                    <option>Kode MK | Nama MK | Kelas MK | Total Peserta</option>
                                 </select>
                             </div>
                             <button type="button" class="btn col-sm-2 waves-effect waves-light btn-info">Pilih</button>
                         </div>
-                    </form>
+                    </form> -->
                 </div>
             </div>
             <div class="col-sm-2"></div>

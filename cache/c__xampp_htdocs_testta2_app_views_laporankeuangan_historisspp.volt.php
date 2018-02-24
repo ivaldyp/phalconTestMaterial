@@ -1,4 +1,4 @@
-a:3:{i:0;s:13464:"<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -126,8 +126,8 @@ a:3:{i:0;s:13464:"<!DOCTYPE html>
                     </li>
                     <li><a href="#" class="waves-effect"><i class="mdi mdi-clipboard-text fa-fw"></i><span class="hide-menu">FRS<span class="fa arrow"></span></span></a>
                         <ul class="nav nav-second-level">
-                            <li><a href="<?= $this->url->get('FRS/buatFRSSetuju') ?>"><i class="mdi mdi-numeric-1-box-multiple-outline fa-fw"></i><span class="hide-menu">PENGISIAN FRS</span></a></li>
-                            <li><a href="<?= $this->url->get('FRS/jadwalKuliah') ?>"><i class="mdi mdi-numeric-2-box-multiple-outline fa-fw"></i><span class="hide-menu">JADWAL KULIAH</span></a></li>
+                            <li><a href="<?= $this->url->get('FRS/buatFRS') ?>"><i class="mdi mdi-numeric-1-box-multiple-outline fa-fw"></i><span class="hide-menu">PENGISIAN FRS</span></a></li>
+                            <li><a href="chat.html"><i class="mdi mdi-numeric-2-box-multiple-outline fa-fw"></i><span class="hide-menu">JADWAL KULIAH</span></a></li>
                         </ul>
                     </li>
                     <li><a href="#" class="waves-effect"><i class="mdi mdi-format-list-numbers fa-fw"></i> <span class="hide-menu">KUESIONER<span class="fa arrow"></span></span></a>
@@ -173,8 +173,93 @@ a:3:{i:0;s:13464:"<!DOCTYPE html>
         <!-- ============================================================== -->
         <!-- Page Content -->
         <!-- ============================================================== -->
-        ";s:7:"content";a:1:{i:0;a:4:{s:4:"type";i:357;s:5:"value";s:10:"
-        ";s:4:"file";s:64:"C:\xampp\htdocs\testTA2/app/views/template/menubarMahasiswa.volt";s:4:"line";i:177;}}i:1;s:3093:"
+        
+
+<div id="page-wrapper">
+    <div class="container-fluid">
+        <div class="row bg-title">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <h4 class="page-title">Historis Pembayaran Mahasiswa</h4> </div>
+            <div class="col-lg-8 col-sm-8 col-md-8 col-xs-12"> 
+                <ol class="breadcrumb">
+                    <li><a href="#">Dashboard</a></li>
+                    <li><a href="LaporanKeuangan/index2">Table</a></li>
+                    <li class="active">Bootstrap Table</li>
+                </ol>
+            </div>
+            <!-- /.col-lg-12 -->
+        </div>
+        <!-- /row -->
+        <div class="row">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8">
+                <div class="white-box">
+                    <h3 class="box-title m-b-0">MAHASISWA : IVALDY - 5114100105</h3>
+                    <!-- <p class="text-muted m-b-30">Simple table example</p> -->
+                    <table data-toggle="table" data-mobile-responsive="true" class="table-striped table-hover table-bordered">
+                        <thead>
+                            <tr>
+                                <th>Tahun Semester</th>
+                                <th>Tanggal Bayar & Bank</th>
+                                <th>Total Bayar</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr id="tr-id-1" class="tr-class-1">
+                                <td id="td-id-1" class="td-class-1"> GENAP 2017 </td>
+                                <td>2018-01-28 MANDIRI</td>
+                                <td>4000000</td>
+                                <td>Sudah Dibayar</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <br>
+                    <table data-toggle="table" data-mobile-responsive="true" class="table-striped table-hover table-bordered">
+                        <thead>
+                            <tr>
+                                <th>Jenis Pembayaran</th>
+                                <th>Jumlah</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr id="tr-id-1" class="tr-class-1">
+                                <td>TAGIHAN SPP</td>
+                                <td>4000000</td>
+                            </tr>
+                            <tr id="tr-id-2" class="tr-class-2">
+                                <td>TUNGGAKAN WISUDA</td>
+                                <td>0</td>
+                            </tr>
+                            <tr id="tr-id-3" class="tr-class-3">
+                                <td>TAGIHAN PELAYARAN</td>
+                                <td>0</td>
+                            </tr>
+                            <tr id="tr-id-4" class="tr-class-4">
+                                <td>TUNGGAKAN PELAYARAN</td>
+                                <td>0</td>
+                            </tr>
+                            <tr id="tr-id-5" class="tr-class-5">
+                                <td>TAGIHAN SPI</td>
+                                <td>0</td>
+                            </tr>
+                            <tr id="tr-id-6" class="tr-class-6">
+                                <td>TAGIHAN IPITS</td>
+                                <td>0</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="col-sm-2"></div>
+        </div>
+        <!-- /.row -->
+    </div>
+    <!-- /.container-fluid -->
+    <footer class="footer text-center"> 2017 &copy; Ample Admin brought to you by themedesigner.in </footer>
+</div>
+
+
         <!-- ============================================================== -->
         <!-- End Page Content -->
         <!-- ============================================================== -->
@@ -227,4 +312,4 @@ a:3:{i:0;s:13464:"<!DOCTYPE html>
     
 </body>
 
-</html>";}
+</html>

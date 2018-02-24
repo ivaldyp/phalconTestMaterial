@@ -22,8 +22,8 @@
                 <div class="white-box">
                     <form class="form-horizontal">
                         <div class="form-group">
-                            <label class="col-sm-3" style="top: 10px">Dosen Wali</label>
-                            <div class="col-sm-6">
+                            <label class="col-sm-2" style="top: 10px">Dosen Wali</label>
+                            <div class="col-sm-7">
                                 <select class="form-control">
                                     <option>Dosen 1</option>
                                     <option>Dosen 2</option>
@@ -32,13 +32,13 @@
                                     <option>Dosen 5</option>
                                 </select>
                             </div>
-                            <button type="button" class="btn col-sm-3 waves-effect waves-light btn-info">Tampil</button>
+                            <button type="button" class="btn col-sm-3 waves-effect waves-light btn-info">Pilih</button>
                         </div>
                     </form>
                     <form class="form-horizontal">
                         <div class="form-group">
-                            <label class="col-sm-3" style="top: 10px">Mahasiswa</label>
-                            <div class="col-sm-6">
+                            <label class="col-sm-2" style="top: 10px">Mahasiswa</label>
+                            <div class="col-sm-7">
                                 <select class="form-control">
                                     <option>NRP1 - Mahasiswa</option>
                                     <option>NRP1 - Mahasiswa</option>

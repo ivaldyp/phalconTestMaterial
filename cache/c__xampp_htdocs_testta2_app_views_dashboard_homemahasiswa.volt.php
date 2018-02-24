@@ -103,7 +103,7 @@
                     <h3><span class="fa-fw open-close"><i class="ti-menu hidden-xs"></i><i class="ti-close visible-xs"></i></span> <span class="hide-menu">SI Akademik</span></h3> </div>
                 <ul class="nav" id="side-menu">
                     <li class="user-pro">
-                        <a href="#" class="waves-effect" style="display: inline-block;"><img src="../plugins/images/users/varun.jpg" alt="user-img" class="img-circle"> <span class="hide-menu">Ivaldy Putra Lifiari</span><span class="hide-menu" style="display: inline-block;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;05111440000105</span>
+                        <a href="#" class="waves-effect" style="display: inline-block;"><img src="../plugins/images/users/valdy.jpg" alt="user-img" class="img-circle"> <span class="hide-menu">Ivaldy Putra Lifiari</span><span class="hide-menu" style="display: inline-block;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;05111440000105</span>
                         </a>
                         <!-- <div style="display: inline-block"><span class="hide-menu">Nama Mahasiswa</span></div>
                         <div style="display: inline-block"><span class="hide-menu">NRP Mahasiswa</span></div> -->
@@ -126,8 +126,8 @@
                     </li>
                     <li><a href="#" class="waves-effect"><i class="mdi mdi-clipboard-text fa-fw"></i><span class="hide-menu">FRS<span class="fa arrow"></span></span></a>
                         <ul class="nav nav-second-level">
-                            <li><a href="chat.html"><i class="mdi mdi-numeric-1-box-multiple-outline fa-fw"></i><span class="hide-menu">PENGISIAN FRS</span></a></li>
-                            <li><a href="chat.html"><i class="mdi mdi-numeric-2-box-multiple-outline fa-fw"></i><span class="hide-menu">JADWAL KULIAH</span></a></li>
+                            <li><a href="<?= $this->url->get('FRS/buatFRSSetuju') ?>"><i class="mdi mdi-numeric-1-box-multiple-outline fa-fw"></i><span class="hide-menu">PENGISIAN FRS</span></a></li>
+                            <li><a href="<?= $this->url->get('FRS/jadwalKuliah') ?>"><i class="mdi mdi-numeric-2-box-multiple-outline fa-fw"></i><span class="hide-menu">JADWAL KULIAH</span></a></li>
                         </ul>
                     </li>
                     <li><a href="#" class="waves-effect"><i class="mdi mdi-format-list-numbers fa-fw"></i> <span class="hide-menu">KUESIONER<span class="fa arrow"></span></span></a>
@@ -178,11 +178,23 @@
 <div id="page-wrapper">
     <div class="container-fluid">
         <!-- NEW ROW -->
+        <div class="row bg-title">
+            <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
+                <h4 class="page-title">Beranda</h4>
+            </div>
+            <div class="col-lg-9 col-sm-8 col-md-8 col-xs-12">
+                <ol class="breadcrumb">
+                    <li><a href="#">Beranda</a></li>
+                    <li class="active">Beranda</li>
+                </ol>
+            </div>
+            <!-- /.col-lg-12 -->
+        </div>
         <div class="row">
             <div class="col-md-12">
                 <div class="white-box">
                     <div class="row">
-                        <div class="col-md-1 b-r"><img src="../plugins/images/users/varun.jpg" alt="varun" class="img-circle img-responsive" width="50" height="50"></div>
+                        <!-- <div class="col-md-1 b-r"><img src="../plugins/images/users/varun.jpg" alt="varun" class="img-circle img-responsive" width="50" height="50"></div>
                         <div class="col-md-2 col-xs-6 b-r"> <strong>Nama</strong>
                             <br>
                             <p class="text-muted">Ivaldy Putra Lifiari</p>
@@ -210,6 +222,36 @@
                         <div class="col-md-1 col-xs-6 b-r"> <strong>IPD</strong>
                             <br>
                             <p class="text-muted">Diisi <i class="ti-close text-danger"></i></p>
+                        </div> -->
+                        <div class="col-md-1"><img src="../plugins/images/users/valdy.jpg" alt="user" class="img-circle img-responsive" width="100" height="100"></a>
+                        </div>
+                        <div class="col-md-2 col-xs-6 b-r">
+                            <h4 style="font-weight: bold;">Selamat Datang!</h4>
+                            <h4 class="m-t-15">Ivaldy Putra Lifiari</h4>
+                        </div>
+                        <div class="col-md-2 col-xs-6 b-r"> 
+                            <h4 style="font-weight: bold;"><i class="icon-user m-r-10"></i>NRP</h4>
+                            <h4 class="m-t-15">05111440000105</h4>
+                        </div>
+                        <div class="col-md-2 col-xs-6 b-r">
+                            <h4 style="font-weight: bold;"><i class="icon-location-pin m-r-10"></i>Departemen</h4>
+                            <h4 class="m-t-15">Informatika</h4>
+                        </div>
+                        <div class="col-md-2 col-xs-6 b-r">
+                            <h4 style="font-weight: bold;"><i class="icon-book-open m-r-10"></i>Periode</h4>
+                            <h4 class="m-t-15">Genap 2017/2018</h4>
+                        </div>
+                        <div class="col-md-1 col-xs-6 b-r">
+                            <h4 style="font-weight: bold; font-size: 16px;" class="tooltip-success" data-toggle="tooltip" data-placement="top" title="" data-original-title="Sudah Dibayar">SPP</h4>
+                            <h4 class="m-t-15"><i class="fa fa-check text-success pull-right m-b-15"></i></h4>
+                        </div>
+                        <div class="col-md-1 col-xs-6 b-r">
+                            <h4 style="font-weight: bold; font-size: 16px;" class="tooltip-danger" data-toggle="tooltip" data-placement="top" title="" data-original-title="Belum Diisi">FRS</h4>
+                            <h4 class="m-t-15"><i class="fa fa-times text-danger pull-right m-b-15"></i></h4>
+                        </div>
+                        <div class="col-md-1 col-xs-6">
+                            <h4 style="font-weight: bold; font-size: 16px;" class="tooltip-success" data-toggle="tooltip" data-placement="top" title="" data-original-title="Belum Diisi">Kuesioner</h4>
+                            <h4 class="m-t-15"><i class="fa fa-times text-danger pull-right m-b-15"></i></h4>
                         </div>
                     </div>
                 </div>
@@ -406,7 +448,7 @@
                                             <thead>
                                                 <tr>
                                                     <th class="col-sm-3" style="text-align: center;">Tanggal</th>
-                                                    <th style="text-align: center;">Acara</th>
+                                                    <th style="text-align: center;">Kegiatan</th>
                                                 </tr>
                                             </thead>
                                             <tbody>
@@ -468,7 +510,7 @@
                                     <div class="mail-contnet">
                                         <span class="time m-r-10"><i class="icon-calender"></i> 20  may 2016</span> 
                                         <span class="time"><i class="icon-clock"></i> 15.00</span>
-                                        <br/><span class="mail-desc">Donec ac condimentum massa. Etiam pellentesque pretium lacus. Phasellus ultricies dictum suscipit. Aenean commodo dui pellentesque molestie feugiat. Aenean commodo dui pellentesque molestie feugiat</span>
+                                        <br/><span class="mail-desc">Pengumuman Penting Sekali! Pengumuman Penting Sekali! Pengumuman Penting Sekali! Pengumuman Penting Sekali!</span>
                                     </div>
                                 </div>
                                 <div class="comment-body">
@@ -476,7 +518,7 @@
                                     <div class="mail-contnet">
                                         <span class="time m-r-10"><i class="icon-calender"></i> 20  may 2016</span> 
                                         <span class="time"><i class="icon-clock"></i> 15.00</span>
-                                        <br/><span class="mail-desc">Donec ac condimentum massa. Etiam pellentesque pretium lacus. Phasellus ultricies dictum suscipit. Aenean commodo dui pellentesque molestie feugiat. Aenean commodo dui pellentesque molestie feugiat</span>
+                                        <br/><span class="mail-desc">Pengumuman Penting Sekali! Pengumuman Penting Sekali! Pengumuman Penting Sekali! Pengumuman Penting Sekali!</span>
                                     </div>
                                 </div>
                                 <div class="comment-body">
@@ -484,7 +526,7 @@
                                     <div class="mail-contnet">
                                         <span class="time m-r-10"><i class="icon-calender"></i> 20  may 2016</span> 
                                         <span class="time"><i class="icon-clock"></i> 15.00</span>
-                                        <br/><span class="mail-desc">Donec ac condimentum massa. Etiam pellentesque pretium lacus. Phasellus ultricies dictum suscipit. Aenean commodo dui pellentesque molestie feugiat. Aenean commodo dui pellentesque molestie feugiat</span>
+                                        <br/><span class="mail-desc">Pengumuman Penting Sekali! Pengumuman Penting Sekali! Pengumuman Penting Sekali! Pengumuman Penting Sekali!</span>
                                     </div>
                                 </div>
                             </div>
@@ -497,7 +539,7 @@
                 <div class="panel">
                     <div class="panel panel-themecolor">
                         <div class="panel-heading">
-                            <center>CHART IPS</center>
+                            <center>IPS</center>
                         </div>
                         <div class="panel-body">
                             <div id="chartmorristest1" style="height: 300px"></div>
