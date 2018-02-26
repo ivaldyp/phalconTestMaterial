@@ -1,16 +1,15 @@
-{% extends 'template/menubar.volt' %}
+{% extends 'template/menubarDosen.volt' %}
 {% block content %}
 
 <div id="page-wrapper">
     <div class="container-fluid">
         <div class="row bg-title">
             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                <h4 class="page-title">Kelola Daftar Anak Wali</h4> </div>
+                <h4 class="page-title">Lihat Daftar Anak Wali</h4> </div>
             <div class="col-lg-8 col-sm-8 col-md-8 col-xs-12"> 
                 <ol class="breadcrumb">
-                    <li><a href="#">Dashboard</a></li>
-                    <li><a href="LaporanKeuangan/index2">Table</a></li>
-                    <li class="active">Bootstrap Table</li>
+                    <li><a href="#">FRS</a></li>
+                    <li class="active"><a href="{{ url('Pembelajaran/ubahDosenDosenWali') }}">Perwalian</a></li>
                 </ol>
             </div>
             <!-- /.col-lg-12 -->
@@ -19,42 +18,24 @@
         <div class="row">
             <div class="col-sm-2"></div>
             <div class="col-sm-8">
-                <div class="white-box">
-                    <form class="form-horizontal">
-                        <div class="form-group">
-                            <label class="col-sm-2" style="top: 10px">Dosen Wali</label>
-                            <div class="col-sm-7">
-                                <select class="form-control">
-                                    <option>Dosen 1</option>
-                                    <option>Dosen 2</option>
-                                    <option>Dosen 3</option>
-                                    <option>Dosen 4</option>
-                                    <option>Dosen 5</option>
-                                </select>
-                            </div>
-                            <button type="button" class="btn col-sm-3 waves-effect waves-light btn-info">Pilih</button>
-                        </div>
-                    </form>
-                    <form class="form-horizontal">
-                        <div class="form-group">
-                            <label class="col-sm-2" style="top: 10px">Mahasiswa</label>
-                            <div class="col-sm-7">
-                                <select class="form-control">
-                                    <option>NRP1 - Mahasiswa</option>
-                                    <option>NRP1 - Mahasiswa</option>
-                                    <option>NRP3 - Mahasiswa</option>
-                                    <option>NRP4 - Mahasiswa</option>
-                                    <option>NRP5 - Mahasiswa</option>
-                                </select>
-                            </div>
-                            <button type="button" class="btn col-sm-3 waves-effect waves-light btn-info">Pilih</button>
-                        </div>
-                    </form>
+                <div class="white-box col-sm-6">
+                    <div class="col-sm-3">
+                        <h4 class="m-b-0"><b>Dosen: </b></h4>
+                    </div>
+                    <div class="col-sm-9">
+                        <h4 class="m-b-0"><b>Rizky Januar Akbar</b></h4>
+                    </div>
                 </div>
+            </div>
+            <div class="col-sm-2"></div>
+        </div>
+        <div class="row">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8">
                 <div class="white-box">
                     <!-- <h3 class="box-title m-b-0">MAHASISWA : IVALDY - 5114100105</h3> -->
                     <!-- <p class="text-muted m-b-30">Simple table example</p> -->
-                    <table data-toggle="table" data-mobile-responsive="true" class="table-striped">
+                    <table data-mobile-responsive="true" class="table table-hover">
                         <thead>
                             <tr>
                                 <th>NO</th>

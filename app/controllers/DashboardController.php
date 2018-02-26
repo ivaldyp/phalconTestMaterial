@@ -8,6 +8,16 @@ class DashboardController extends \Phalcon\Mvc\Controller
     	$this->view->pick("Dashboard/homeMahasiswa");
     }
 
+    public function homeDosenAction()
+    {
+        $this->view->pick("Dashboard/homeDosen");
+    }
+
+    public function homeKaprodiAction()
+    {
+        $this->view->pick("Dashboard/homeKaprodi");
+    }
+
     public function blankAction()
     {
         $this->view->pick("Dashboard/blank");

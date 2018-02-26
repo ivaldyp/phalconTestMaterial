@@ -20,35 +20,6 @@
             <div class="col-md-12">
                 <div class="white-box">
                     <div class="row">
-                        <!-- <div class="col-md-1 b-r"><img src="../plugins/images/users/varun.jpg" alt="varun" class="img-circle img-responsive" width="50" height="50"></div>
-                        <div class="col-md-2 col-xs-6 b-r"> <strong>Nama</strong>
-                            <br>
-                            <p class="text-muted">Ivaldy Putra Lifiari</p>
-                        </div>
-                        <div class="col-md-2 col-xs-6 b-r"> <strong>NRP</strong>
-                            <br>
-                            <p class="text-muted">05111440000105</p>
-                        </div>
-                        <div class="col-md-2 col-xs-6 b-r"> <strong>Jurusan</strong>
-                            <br>
-                            <p class="text-muted">Teknik Informatika</p>
-                        </div>
-                        <div class="col-md-2 col-xs-6 b-r"> <strong>Jenis / Jalur Masuk</strong>
-                            <br>
-                            <p class="text-muted">Reguler / SBMPTN</p>
-                        </div>
-                        <div class="col-md-1 col-xs-6 b-r"> <strong>SPP</strong>
-                            <br>
-                            <p class="text-muted">Dibayar<i class="ti-check text-success"></i></p>
-                        </div>
-                        <div class="col-md-1 col-xs-6 b-r"> <strong>FRS</strong>
-                            <br>
-                            <p class="text-muted">Diisi <i class="ti-close text-danger"></i></p>
-                        </div>
-                        <div class="col-md-1 col-xs-6 b-r"> <strong>IPD</strong>
-                            <br>
-                            <p class="text-muted">Diisi <i class="ti-close text-danger"></i></p>
-                        </div> -->
                         <div class="col-md-1"><img src="../plugins/images/users/valdy.jpg" alt="user" class="img-circle img-responsive" width="100" height="100"></a>
                         </div>
                         <div class="col-md-2 col-xs-6 b-r">

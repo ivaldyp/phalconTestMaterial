@@ -127,7 +127,7 @@
                     <li><a href="#" class="waves-effect"><i class="mdi mdi-clipboard-text fa-fw"></i><span class="hide-menu">FRS<span class="fa arrow"></span></span></a>
                         <ul class="nav nav-second-level">
                             <li><a href="<?= $this->url->get('FRS/buatFRSSetuju') ?>"><i class="mdi mdi-numeric-1-box-multiple-outline fa-fw"></i><span class="hide-menu">PENGISIAN FRS</span></a></li>
-                            <li><a href="chat.html"><i class="mdi mdi-numeric-2-box-multiple-outline fa-fw"></i><span class="hide-menu">JADWAL KULIAH</span></a></li>
+                            <li><a href="<?= $this->url->get('FRS/jadwalKuliah') ?>"><i class="mdi mdi-numeric-2-box-multiple-outline fa-fw"></i><span class="hide-menu">JADWAL KULIAH</span></a></li>
                         </ul>
                     </li>
                     <li><a href="#" class="waves-effect"><i class="mdi mdi-format-list-numbers fa-fw"></i> <span class="hide-menu">KUESIONER<span class="fa arrow"></span></span></a>
@@ -193,27 +193,36 @@
             <div class="col-sm-2"></div>
             <div class="col-sm-8">
                 <div class="white-box">
-                    <div class="col-sm-2">
-                        <h3 class="box-title m-b-0">NRP</h3>
-                        <h3 class="box-title m-b-0">Nama</h3>
-                        <h3 class="box-title m-b-0">IPK</h3>
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <h3 class="box-title m-b-0">NRP</h3>
+                            <h3 class="box-title m-b-0">Nama</h3>
+                            <h3 class="box-title m-b-0">IPK</h3>
+                        </div>
+                        <div class="col-sm-4">
+                            <h3 class="box-title m-b-0">: 05111440000105</h3>
+                            <h3 class="box-title m-b-0">: Ivaldy Putra</h3>
+                            <h3 class="box-title m-b-0">: 3.56</h3>
+                        </div>
+                        <div class="col-sm-2">
+                            <h3 class="box-title m-b-0">Periode</h3>
+                            <h3 class="box-title m-b-0">Dosen Wali</h3>
+                            <h3 class="box-title m-b-0">Batas/Sisa</h3>
+                        </div>
+                        <div class="col-sm-4">
+                            <h3 class="box-title m-b-0">: 2017/Genap</h3>
+                            <h3 class="box-title m-b-0">: Dosen</h3>
+                            <h3 class="box-title m-b-0">: 24/24 SKS</h3>
+                        </div>
                     </div>
-                    <div class="col-sm-4">
-                        <h3 class="box-title m-b-0">: 05111440000105</h3>
-                        <h3 class="box-title m-b-0">: Ivaldy Putra</h3>
-                        <h3 class="box-title m-b-0">: 3.56</h3>
-                    </div>
-                    <div class="col-sm-2">
-                        <h3 class="box-title m-b-0">Periode</h3>
-                        <h3 class="box-title m-b-0">Dosen Wali</h3>
-                        <h3 class="box-title m-b-0">Batas/Sisa</h3>
-                    </div>
-                    <div class="col-sm-4">
-                        <h3 class="box-title m-b-0">: 2017/Genap</h3>
-                        <h3 class="box-title m-b-0">: Dosen</h3>
-                        <h3 class="box-title m-b-0">: 24/24 SKS</h3>
-                    </div>
-                    <br>
+                </div>
+            </div>
+            <div class="col-sm-2"></div>
+        </div>
+        <div class="row">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8">
+                <div class="white-box">
                     <!-- <p class="text-muted m-b-30">Simple table example</p> -->
                     <table class="table table-bordered table-hover table-striped">
                         <thead>

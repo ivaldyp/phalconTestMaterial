@@ -154,7 +154,7 @@
     <div class="container-fluid">
         <div class="row bg-title">
             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                <h4 class="page-title">Kelas Ditawarkan</h4> </div>
+                <h4 class="page-title">Kelola Daftar Anak Wali</h4> </div>
             <div class="col-lg-8 col-sm-8 col-md-8 col-xs-12"> 
                 <ol class="breadcrumb">
                     <li><a href="#">Dashboard</a></li>
@@ -166,125 +166,88 @@
         </div>
         <!-- /row -->
         <div class="row">
-            <div class="col-sm-1"></div>
-            <div class="col-sm-10">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8">
                 <div class="white-box">
-                	<div class="row">
-                		<div class="col-sm-6 panel panel-heading">
-                			<label class="col-sm-2" style="top: 10px">Periode</label>
-                            <div class="col-sm-3">
+                    <form class="form-horizontal">
+                        <div class="form-group">
+                            <label class="col-sm-2" style="top: 10px">Dosen Wali</label>
+                            <div class="col-sm-7">
                                 <select class="form-control">
-                                    <option>Gasal</option>
-                                    <option>Genap</option>
+                                    <option>Dosen 1</option>
+                                    <option>Dosen 2</option>
+                                    <option>Dosen 3</option>
+                                    <option>Dosen 4</option>
+                                    <option>Dosen 5</option>
                                 </select>
                             </div>
-                            <div class="col-sm-3">
+                            <button type="button" class="btn col-sm-3 waves-effect waves-light btn-info">Pilih</button>
+                        </div>
+                    </form>
+                    <form class="form-horizontal">
+                        <div class="form-group">
+                            <label class="col-sm-2" style="top: 10px">Mahasiswa</label>
+                            <div class="col-sm-7">
                                 <select class="form-control">
-                                    <option>2016</option>
-                                    <option>2017</option>
-                                    <option>2018</option>
+                                    <option>NRP1 - Mahasiswa</option>
+                                    <option>NRP1 - Mahasiswa</option>
+                                    <option>NRP3 - Mahasiswa</option>
+                                    <option>NRP4 - Mahasiswa</option>
+                                    <option>NRP5 - Mahasiswa</option>
                                 </select>
                             </div>
-                            <button type="button" class="btn col-sm-3 waves-effect waves-light btn-info">Tampil</button>
-                		</div>
-                	</div>
-                	<div class="row">
-                		<div class="col-lg-2 col-sm-4 col-xs-12">
-                			<a href="buatKelasPembelajaran"><button class="btn btn-block btn-info"><i class="fa fa-plus"></i> Tambah  </button></a>
+                            <button type="button" class="btn col-sm-3 waves-effect waves-light btn-info">Pilih</button>
                         </div>
-                        <div class="col-lg-2 col-sm-4 col-xs-12">
-                            <button class="btn btn-block btn-default"><i class="fa fa-refresh"></i> Refresh </button>
-                        </div>
-                	</div>
-                	<div class="row">
-                		<div class="table-responsive">
-	                    	<table class="table table-hover">
-	                    		<thead>
-	                                <tr>
-	                                    <th class="col-sm-1" style="text-align: center;">Kode</th>
-	                                    <th>Mata Kuliah</th>
-	                                    <th class="col-sm-1" style="text-align: center;">SKS</th>
-	                                    <th class="col-sm-1" style="text-align: center;">Kelas</th>
-	                                    <th class="col-sm-1" style="text-align: center;">Isi / Maks</th>
-	                                    <th style="text-align: center;">Dosen</th>
-	                                    <th>Ubah</th>
-	                                    <th>Absensi</th>
-	                                </tr>
-	                            </thead>
-	                            <tbody style="text-align: center;">
-	                            	<tr>
-	                            		<td>KI141438</td>
-	                            		<td style="text-align: left;">Penyempurnaan Proses Perangkat Lunak</td>
-	                            		<td>3</td>
-	                            		<td>-</td>
-	                            		<td>20/30
-	                            		</td>
-	                            		<td>Dosen 1</td>
-	                            		<td><button class="btn btn-block btn-info" style="width: 60px; height: 30px">Ubah</button></td>
-	                            		<td><a href="lihatAbsenPembelajaran">
-	                            			<button class="btn btn-block btn-info" style="width: 80px; height: 30px">Absensi</button></a>
-	                            		</td>
-	                            	</tr>
-	                            	<tr>
-	                            		<td>KI141438</td>
-	                            		<td style="text-align: left;">Penyempurnaan Proses Perangkat Lunak</td>
-	                            		<td>3</td>
-	                            		<td>-</td>
-	                            		<td>20/30
-	                            		</td>
-	                            		<td>Dosen 1</td>
-	                            		<td><button class="btn btn-block btn-info" style="width: 60px; height: 30px">Ubah</button></td>
-	                            		<td><a href="lihatAbsenPembelajaran">
-	                            			<button class="btn btn-block btn-info" style="width: 80px; height: 30px">Absensi</button></a>
-	                            		</td>
-	                            	</tr>
-	                            	<tr>
-	                            		<td>KI141438</td>
-	                            		<td style="text-align: left;">Penyempurnaan Proses Perangkat Lunak</td>
-	                            		<td>3</td>
-	                            		<td>-</td>
-	                            		<td>20/30
-	                            		</td>
-	                            		<td>Dosen 1</td>
-	                            		<td><button class="btn btn-block btn-info" style="width: 60px; height: 30px">Ubah</button></td>
-	                            		<td><a href="lihatAbsenPembelajaran">
-	                            			<button class="btn btn-block btn-info" style="width: 80px; height: 30px">Absensi</button></a>
-	                            		</td>
-	                            	</tr>
-	                            	<tr>
-	                            		<td>KI141438</td>
-	                            		<td style="text-align: left;">Penyempurnaan Proses Perangkat Lunak</td>
-	                            		<td>3</td>
-	                            		<td>-</td>
-	                            		<td>20/30
-	                            		</td>
-	                            		<td>Dosen 1</td>
-	                            		<td><button class="btn btn-block btn-info" style="width: 60px; height: 30px">Ubah</button></td>
-	                            		<td><a href="lihatAbsenPembelajaran">
-	                            			<button class="btn btn-block btn-info" style="width: 80px; height: 30px">Absensi</button></a>
-	                            		</td>
-	                            	</tr>
-	                            	<tr>
-	                            		<td>KI141438</td>
-	                            		<td style="text-align: left;">Penyempurnaan Proses Perangkat Lunak</td>
-	                            		<td>3</td>
-	                            		<td>-</td>
-	                            		<td>20/30
-	                            		</td>
-	                            		<td>Dosen 1</td>
-	                            		<td><button class="btn btn-block btn-info" style="width: 60px; height: 30px">Ubah</button></td>
-	                            		<td><a href="lihatAbsenPembelajaran">
-	                            			<button class="btn btn-block btn-info" style="width: 80px; height: 30px">Absensi</button></a>
-	                            		</td>
-	                            	</tr>
-	                            </tbody>
-	                    	</table>
-	                    </div>
-                	</div>
-                    
+                    </form>
                 </div>
             </div>
-            <div class="col-sm-1"></div>
+            <div class="col-sm-2"></div>
+        </div>
+        <div class="row">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8">
+                <div class="white-box">
+                    <!-- <h3 class="box-title m-b-0">MAHASISWA : IVALDY - 5114100105</h3> -->
+                    <!-- <p class="text-muted m-b-30">Simple table example</p> -->
+                    <table data-toggle="table" data-mobile-responsive="true" class="table-striped">
+                        <thead>
+                            <tr>
+                                <th>NO</th>
+                                <th>NRP</th>
+                                <th>MAHASISWA</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr id="tr-id-1" class="tr-class-1">
+                                <td id="td-id-1" class="td-class-1">1</td>
+                                <td>5114100010</td>
+                                <td>ALDO RACHMANSYAH</td>
+                            </tr>
+                            <tr id="tr-id-2" class="tr-class-2">
+                                <td id="td-id-2" class="td-class-2">2</td>
+                                <td>5114100012</td>
+                                <td>ZAHRAH CITRA</td>
+                            </tr>
+                            <tr id="tr-id-3" class="tr-class-3">
+                                <td id="td-id-3" class="td-class-3">3</td>
+                                <td>5114100076</td>
+                                <td>FAISHAL ILHAM</td>
+                            </tr>
+                            <tr id="tr-id-4" class="tr-class-4">
+                                <td id="td-id-4" class="td-class-4">4</td>
+                                <td>5114100078</td>
+                                <td>FARHAN RAMADHANA</td>
+                            </tr>
+                            <tr id="tr-id-5" class="tr-class-5">
+                                <td id="td-id-5" class="td-class-5">5</td>
+                                <td>5114100105</td>
+                                <td>IVALDY PUTRA</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="col-sm-2"></div>
         </div>
         <!-- /.row -->
     </div>

@@ -3,9 +3,14 @@
 class PembelajaranController extends \Phalcon\Mvc\Controller
 {
 
-    public function ubahDosenWaliAction()
+    public function ubahTUDosenWaliAction()
     {
-    	$this->view->pick("Pembelajaran/ubahDosenWali");
+    	$this->view->pick("Pembelajaran/ubahTUDosenWali");
+    }
+
+    public function lihatDosenDosenWaliAction()
+    {
+        $this->view->pick("Pembelajaran/lihatDosenDosenWali");
     }
 
     public function lihatAbsenPembelajaranAction()
