@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" type="image/png" sizes="16x16" href="../plugins/images/logo-its-biru.png">
-    <title>Ample Admin Template - The Ultimate Multipurpose admin template</title>
+    <title>SIAKAD - Sistem Akademik</title>
     <!-- Bootstrap Core CSS -->
     <?= $this->tag->stylesheetLink('bootstrap/dist/css/bootstrap.min.css') ?>
     <?= $this->tag->stylesheetLink('plugins/bower_components/bootstrap-table/dist/bootstrap-table.min.css') ?>
