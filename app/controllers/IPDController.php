@@ -13,4 +13,19 @@ class IPDController extends \Phalcon\Mvc\Controller
 		$this->view->pick("IPD/isiKuisioner");
     }
 
+    public function lihatHasilIPDDepartemenAction()
+    {
+		$this->view->pick("IPD/lihatHasilIPDDepartemen");
+    }
+
+    public function lihatHasilIPDDosenAction()
+    {
+		$this->view->pick("IPD/lihatHasilIPDDosen");
+    }
+
+    public function lihatKuesionerIPDAction()
+    {
+		$this->view->pick("IPD/lihatKuesionerIPD");
+    }
+
 }		
